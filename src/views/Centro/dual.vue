@@ -44,70 +44,70 @@ export default {
         Texto2:
           "Mediante la FP Dual los alumnos aplican en un puesto laboral real los conocimientos aprendidos durante el ciclo y además se siguen formando mediante un programa educativo acordado entre el centro y la empresa",
         Texto3: "",
-        img: "../../src/img/logos/dual.svg",
+        img: "/src/img/logos/dual.svg",
         alt: "FP DUAL",
       },
       documentost: "Documentos sobre FP Dual",
       documentos:[
         {ruta:"https://drive.google.com/file/d/1cTxW6s3ixjW2ca7FEHDhDM2IoRhU_Oky/view",
-        foto:"../../src/img/documentos/informacion-fp-dual.png",
+        foto:"/src/img/documentos/informacion-fp-dual.png",
         nombre:"Información Fp Dula.pdf"},
         {ruta:"https://drive.google.com/file/d/1Pt6_FsWuU-CTIVfFGUbw-TxYrdvvaMMg/view",
-        foto:"../../src/img/documentos/candidatos-fp-dual.png",
+        foto:"/src/img/documentos/candidatos-fp-dual.png",
         nombre:"Listado Definitivo Candidatos Dual.pdf"},
         {ruta:"https://drive.google.com/file/d/1hzvJPQShRXT2JxUGPDA1xj6PFGp8-28j/view",
-        foto:"../../src/img/documentos/empresas-fp-dual.png",
+        foto:"/src/img/documentos/empresas-fp-dual.png",
         nombre:"Listado Empresas FP Dual.pdf"},
         {ruta:"https://drive.google.com/file/d/125ihz8I6OYerXUqfZvaiP8ttWf_6HJos/view",
-        foto:"../../src/img/documentos/solicitud-fp-dual.png",
+        foto:"/src/img/documentos/solicitud-fp-dual.png",
         nombre:"Solicitud FP Dual.jpg"},
       ],
       redes: [
         {
-          img: "../../src/img/iconos/facebook.svg",
+          img: "/src/img/iconos/facebook.svg",
           alt: "Facebook",
           class: "Facebook",
           link: "https://www.facebook.com/people/Salesianos-Villamuriel-Palencia/100057348163856/",
         },
         {
-          img: "../../src/img/iconos/twitter.svg",
+          img: "/src/img/iconos/twitter.svg",
           alt: "Twitter",
           class: "Twitter",
           link: "https://twitter.com/centrodonbosco",
         },
         {
-          img: "../../src/img/iconos/flickr.svg",
+          img: "/src/img/iconos/flickr.svg",
           alt: "Flickr",
           class: "Flickr",
           link: "https://www.flickr.com/photos/58942531@N04/",
         },
         {
-          img: "../../src/img/iconos/instagram.svg",
+          img: "/src/img/iconos/instagram.svg",
           alt: "Instagram",
           class: "Instagram",
           link: "https://www.instagram.com/salesianosvillamuriel/",
         },
         {
-          img: "../../src/img/iconos/youtube.svg",
+          img: "/src/img/iconos/youtube.svg",
           alt: "YouTube",
           class: "YouTube",
           link: "https://www.youtube.com/user/donboscovillamuriel",
         },
       ],
       fotosf:{
-        foto1:"../../src/img/mapa.jpg",
-        foto2:"../../src/img/logos/tic5.png",
-        foto3:"../../src/img/logos/excelencia-marco.svg",
-        foto4:"../../src/img/logos/calidad.png",
-        foto5:"../../src/img/logos/cisco.png",
-        foto6:"../../src/img/logos/ms-reverse.png",
-        foto7:"../../src/img/logos/oracle-reverse.png",
-        foto8:"../../src/img/logos/vmware.png",
+        foto1:"/src/img/mapa.jpg",
+        foto2:"/src/img/logos/tic5.png",
+        foto3:"/src/img/logos/excelencia-marco.svg",
+        foto4:"/src/img/logos/calidad.png",
+        foto5:"/src/img/logos/cisco.png",
+        foto6:"/src/img/logos/ms-reverse.png",
+        foto7:"/src/img/logos/oracle-reverse.png",
+        foto8:"/src/img/logos/vmware.png",
       },
       fotos:[
-        {src:"../../src/img/logos/logo-junta.png", alt:"Junta de Castilla y León" , class:"normal"},
-        {src:"../../src/img/logos/logo-grande.svg", alt:"Salesianos Villamuriel", class:"salesiano"},
-        {src:"../../src/img/logos/europa-impulsa.png", alt:"Europa Impulsa", class:"europa"}
+        {src:"/src/img/logos/logo-junta.png", alt:"Junta de Castilla y León" , class:"normal"},
+        {src:"/src/img/logos/logo-grande.svg", alt:"Salesianos Villamuriel", class:"salesiano"},
+        {src:"/src/img/logos/europa-impulsa.png", alt:"Europa Impulsa", class:"europa"}
       ]
     };
   },
@@ -119,7 +119,7 @@ export default {
 </script>
 <style>
 .fondodual {
-  background-image: url("../../src/img/escuela/estudio-dual.jpg");
+  background-image: url("/src/img/escuela/estudio-dual.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
