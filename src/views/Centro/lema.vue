@@ -34,7 +34,7 @@ export default {
       contenidos: [
         [
           {
-            img: "/src/img/pastoral/encuentro.jpg",
+            img: "../src/img/pastoral/encuentro.jpg",
             alt: "Encuentro",
             texto: [
               {
@@ -48,7 +48,7 @@ export default {
             ],
           },
           {
-            img: "/src/img/pastoral/cuidado.jpg",
+            img: "../src/img/pastoral/cuidado.jpg",
             alt: "Cuidado",
             texto: [
               {
@@ -60,7 +60,7 @@ export default {
         ],
         [
           {
-            img: "/src/img/pastoral/esperanza.jpg",
+            img: "../src/img/pastoral/esperanza.jpg",
             alt: "Esperanza",
             texto: [
               {
@@ -70,7 +70,7 @@ export default {
             ],
           },
           {
-            img: "/src/img/pastoral/apasionados.png",
+            img: "../src/img/pastoral/apasionados.png",
             alt: "Vida",
             texto: [
               {
@@ -83,45 +83,45 @@ export default {
       ],
       redes: [
         {
-          img: "/src/img/iconos/facebook.svg",
+          img: "../src/img/iconos/facebook.svg",
           alt: "Facebook",
           class: "Facebook",
           link: "https://www.facebook.com/people/Salesianos-Villamuriel-Palencia/100057348163856/",
         },
         {
-          img: "/src/img/iconos/twitter.svg",
+          img: "../src/img/iconos/twitter.svg",
           alt: "Twitter",
           class: "Twitter",
           link: "https://twitter.com/centrodonbosco",
         },
         {
-          img: "/src/img/iconos/flickr.svg",
+          img: "../src/img/iconos/flickr.svg",
           alt: "Flickr",
           class: "Flickr",
           link: "https://www.flickr.com/photos/58942531@N04/",
         },
         {
-          img: "/src/img/iconos/instagram.svg",
+          img: "../src/img/iconos/instagram.svg",
           alt: "Instagram",
           class: "Instagram",
           link: "https://www.instagram.com/salesianosvillamuriel/",
         },
         {
-          img: "/src/img/iconos/youtube.svg",
+          img: "../src/img/iconos/youtube.svg",
           alt: "YouTube",
           class: "YouTube",
           link: "https://www.youtube.com/user/donboscovillamuriel",
         },
       ],
       fotosf:{
-        foto1:"/src/img/mapa.jpg",
-        foto2:"/src/img/logos/tic5.png",
-        foto3:"/src/img/logos/excelencia-marco.svg",
-        foto4:"/src/img/logos/calidad.png",
-        foto5:"/src/img/logos/cisco.png",
-        foto6:"/src/img/logos/ms-reverse.png",
-        foto7:"/src/img/logos/oracle-reverse.png",
-        foto8:"/src/img/logos/vmware.png",
+        foto1:"../src/img/mapa.jpg",
+        foto2:"../src/img/logos/tic5.png",
+        foto3:"../src/img/logos/excelencia-marco.svg",
+        foto4:"../src/img/logos/calidad.png",
+        foto5:"../src/img/logos/cisco.png",
+        foto6:"../src/img/logos/ms-reverse.png",
+        foto7:"../src/img/logos/oracle-reverse.png",
+        foto8:"../src/img/logos/vmware.png",
       }
     };
   },
@@ -133,7 +133,7 @@ export default {
 </script>
 <style>
 .fondocentro{
-  background-image: url("/src/img/textura1.jpg");
+  background-image: url("../src/img/textura1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
