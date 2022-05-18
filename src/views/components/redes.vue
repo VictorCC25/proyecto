@@ -1,7 +1,7 @@
 <template>
   <el-aside v-for="(red, id) in redes" :key="id" class="iconos">
     <el-link :underline="false" type="info" v-bind:href="red.link">
-      <img v-bind:src="red.img" v-bind:alt="red.alt" v-bind:class="red.class" />
+      <img :src="red.img" v-bind:alt="red.alt" v-bind:class="red.class" />
     </el-link>
   </el-aside>
 </template>
