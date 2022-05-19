@@ -57,7 +57,7 @@ export default {
       noticias: [
         {
           Titulo: "Periodo de admisiones ESO",
-          img: /src/img/noticias/2022/03/admisiones-ESO.jpeg,
+          img: "/src/img/noticias/2022/03/admisiones-ESO.jpeg",
           alt: "Admisiones ESO",
           Texto:
             "Abierto el periodo de admisiones para la ESO. Del 18 de marzo al 6 de abril, en la Secretaría del Centro Don Bosoc de 9:30h a 13:30h. Teléfono: 979 77 72 70",
