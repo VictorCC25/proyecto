@@ -55,7 +55,7 @@ export default {
         Texto2:
           "Aprenderás los fundamentos de una profesión muy práctica con alta demanda que te permitirá adquirir las destrezas y técnicas que permitan una salida como profesional en trabajos de chapa, transformaciones de carrocerías, vehículos pesados, construcción y reparación de elementos de fibra y pintura.",
         Texto3: "",
-        img: "/src/assets/img/ciclos/carroceria01.jpg",
+        img: "/src/assets/ciclos/carroceria01.jpg",
         alt: "Telecomunicaciones",
       },
       fila: {
@@ -77,19 +77,19 @@ export default {
       },
       fotos: [
         {
-          img: "/src/assets/img/ciclos/carroceria/carroceria01.jpg",
+          img: "/src/assets/ciclos/carroceria/carroceria01.jpg",
           alt: "Carroceria1",
         },
         {
-          img: "/src/assets/img/ciclos/carroceria/carroceria02.jpg",
+          img: "/src/assets/ciclos/carroceria/carroceria02.jpg",
           alt: "Carroceria2",
         },
         {
-          img: "/src/assets/img/ciclos/carroceria/carroceria03.jpg",
+          img: "/src/assets/ciclos/carroceria/carroceria03.jpg",
           alt: "Carroceria3",
         },
         {
-          img: "/src/assets/img/ciclos/carroceria/carroceria04.jpg",
+          img: "/src/assets/ciclos/carroceria/carroceria04.jpg",
           alt: "Carroceria4",
         },
       ],
@@ -148,45 +148,45 @@ export default {
       ],
       redes: [
         {
-          img: "/src/assets/img/iconos/facebook.svg",
+          img: "/src/assets/iconos/facebook.svg",
           alt: "Facebook",
           class: "Facebook",
           link: "https://www.facebook.com/people/Salesianos-Villamuriel-Palencia/100057348163856/",
         },
         {
-          img: "/src/assets/img/iconos/twitter.svg",
+          img: "/src/assets/iconos/twitter.svg",
           alt: "Twitter",
           class: "Twitter",
           link: "https://twitter.com/centrodonbosco",
         },
         {
-          img: "/src/assets/img/iconos/flickr.svg",
+          img: "/src/assets/iconos/flickr.svg",
           alt: "Flickr",
           class: "Flickr",
           link: "https://www.flickr.com/photos/58942531@N04/",
         },
         {
-          img: "/src/assets/img/iconos/instagram.svg",
+          img: "/src/assets/iconos/instagram.svg",
           alt: "Instagram",
           class: "Instagram",
           link: "https://www.instagram.com/salesianosvillamuriel/",
         },
         {
-          img: "/src/assets/img/iconos/youtube.svg",
+          img: "/src/assets/iconos/youtube.svg",
           alt: "YouTube",
           class: "YouTube",
           link: "https://www.youtube.com/user/donboscovillamuriel",
         },
       ],
       fotosf: {
-        foto1: "/src/assets/img/mapa.jpg",
-        foto2: "/src/assets/img/logos/tic5.png",
-        foto3: "/src/assets/img/logos/excelencia-marco.svg",
-        foto4: "/src/assets/img/logos/calidad.png",
-        foto5: "/src/assets/img/logos/cisco.png",
-        foto6: "/src/assets/img/logos/ms-reverse.png",
-        foto7: "/src/assets/img/logos/oracle-reverse.png",
-        foto8: "/src/assets/img/logos/vmware.png",
+        foto1: "/src/assets/mapa.jpg",
+        foto2: "/src/assets/logos/tic5.png",
+        foto3: "/src/assets/logos/excelencia-marco.svg",
+        foto4: "/src/assets/logos/calidad.png",
+        foto5: "/src/assets/logos/cisco.png",
+        foto6: "/src/assets/logos/ms-reverse.png",
+        foto7: "/src/assets/logos/oracle-reverse.png",
+        foto8: "/src/assets/logos/vmware.png",
       },
     };
   },
@@ -209,7 +209,7 @@ export default {
 Modulost>
 <style>
 .fondocarroceria {
-  background-image: url("/src/assets/img/ciclos/fondo-carroceria.jpg");
+  background-image: url("/src/assets/ciclos/fondo-carroceria.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;

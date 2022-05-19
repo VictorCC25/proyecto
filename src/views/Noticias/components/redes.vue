@@ -22,30 +22,30 @@ export default {
   cursor: pointer;
   width: 70px;
   transition: 0.5s;
-  content: url("/src/assets/img/iconos/facebook2.svg");
+  content: url("/src/assets/iconos/facebook2.svg");
 }
 .Twitter:hover {
   cursor: pointer;
   width: 70px;
   transition: 0.5s;
-  content: url("/src/assets/img/iconos/twitter2.svg");
+  content: url("/src/assets/iconos/twitter2.svg");
 }
 .Flickr:hover {
   cursor: pointer;
   width: 70px;
   transition: 0.5s;
-  content: url("/src/assets/img/iconos/flickr2.svg");
+  content: url("/src/assets/iconos/flickr2.svg");
 }
 .Instagram:hover {
   cursor: pointer;
   width: 70px;
   transition: 0.5s;
-  content: url("/src/assets/img/iconos/instagram2.svg");
+  content: url("/src/assets/iconos/instagram2.svg");
 }
 .YouTube:hover {
   cursor: pointer;
   width: 70px;
   transition: 0.5s;
-  content: url("/src/assets/img/iconos/youtube2.svg");
+  content: url("/src/assets/iconos/youtube2.svg");
 }
 </style>

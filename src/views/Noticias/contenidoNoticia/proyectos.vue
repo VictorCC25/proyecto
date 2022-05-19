@@ -47,48 +47,48 @@ export default {
       },
       redes: [
         {
-          img: "/src/assets/img/iconos/facebook.svg",
+          img: "/src/assets/iconos/facebook.svg",
           alt: "Facebook",
           class: "Facebook",
           link: "https://www.facebook.com/people/Salesianos-Villamuriel-Palencia/100057348163856/",
         },
         {
-          img: "/src/assets/img/iconos/twitter.svg",
+          img: "/src/assets/iconos/twitter.svg",
           alt: "Twitter",
           class: "Twitter",
           link: "https://twitter.com/centrodonbosco",
         },
         {
-          img: "/src/assets/img/iconos/flickr.svg",
+          img: "/src/assets/iconos/flickr.svg",
           alt: "Flickr",
           class: "Flickr",
           link: "https://www.flickr.com/photos/58942531@N04/",
         },
         {
-          img: "/src/assets/img/iconos/instagram.svg",
+          img: "/src/assets/iconos/instagram.svg",
           alt: "Instagram",
           class: "Instagram",
           link: "https://www.instagram.com/salesianosvillamuriel/",
         },
         {
-          img: "/src/assets/img/iconos/youtube.svg",
+          img: "/src/assets/iconos/youtube.svg",
           alt: "YouTube",
           class: "YouTube",
           link: "https://www.youtube.com/user/donboscovillamuriel",
         },
       ],
       fotosf: {
-        foto1: "/src/assets/img/mapa.jpg",
-        foto2: "/src/assets/img/logos/tic5.png",
-        foto3: "/src/assets/img/logos/excelencia-marco.svg",
-        foto4: "/src/assets/img/logos/calidad.png",
-        foto5: "/src/assets/img/logos/cisco.png",
-        foto6: "/src/assets/img/logos/ms-reverse.png",
-        foto7: "/src/assets/img/logos/oracle-reverse.png",
-        foto8: "/src/assets/img/logos/vmware.png",
+        foto1: "/src/assets/mapa.jpg",
+        foto2: "/src/assets/logos/tic5.png",
+        foto3: "/src/assets/logos/excelencia-marco.svg",
+        foto4: "/src/assets/logos/calidad.png",
+        foto5: "/src/assets/logos/cisco.png",
+        foto6: "/src/assets/logos/ms-reverse.png",
+        foto7: "/src/assets/logos/oracle-reverse.png",
+        foto8: "/src/assets/logos/vmware.png",
       },
       noticia1: {
-        img: "/src/assets/img/noticias/2021/06/Autoridades.jpg",
+        img: "/src/assets/noticias/2021/06/Autoridades.jpg",
         alt: "Autoridades",
         Texto1:
           "El paso 3 de Junio los alumnos de 2º curso del ciclo de Administración de Sistemas Informáticos en Red han presentado sus proyectos en el Teatro Jesús de Meneses.",
@@ -97,7 +97,7 @@ export default {
         Texto3: "Autoridades presentes en la presentación de proyectos",
       },
       noticia2: {
-        img: "/src/assets/img/noticias/2021/06/Diego_01.jpg",
+        img: "/src/assets/noticias/2021/06/Diego_01.jpg",
         alt: "Diego Bartolome",
         Texto1:
           "Este año hemos disfrutar de todo tipo de temáticas en los proyectos",
@@ -106,7 +106,7 @@ export default {
         Texto3: "El alumno Diego Bartolome preparando su presentación",
       },
       noticia3: {
-        img: "/src/assets/img/noticias/2021/06/Eva_01.jpg",
+        img: "/src/assets/noticias/2021/06/Eva_01.jpg",
         alt: "Eva María Infante",
         Texto1:
           "La robótica y el Internet de las Cosas estaba presente en el proyecto ArduiCar presentado por Eva María Infante Maestro en el que se demostraba el funcionamiento de un robot automóvil con todo tipo de sensores",
@@ -114,7 +114,7 @@ export default {
         Texto3: "Examinando el 'ArduiCar' de Eva María Infante",
       },
       noticia4: {
-        img: "/src/assets/img/noticias/2021/06/Benjamin_01.jpg",
+        img: "/src/assets/noticias/2021/06/Benjamin_01.jpg",
         alt: "Benjamin Gordo",
         Texto1:
           "El proyecto de ciberseguridad en el que se analizaba las 10 vulnerabilidades web presentes en OWASP Top 10, presentado por Benjamín Gordo Cortés presentaba un análisis profundo y soluciones ante el creciente problema de la seguridad en las aplicaciones web",
@@ -123,7 +123,7 @@ export default {
           "Benjamin Gordo presentando su proyecto sobre las vulnerabilidades OWASP Top 10",
       },
       noticia5: {
-        img: "/src/assets/img/noticias/2021/06/Adrian_01.jpg",
+        img: "/src/assets/noticias/2021/06/Adrian_01.jpg",
         alt: "Adrian Fitiu",
         Texto1:
           'Hemos disfrutado de la aplicación web lúdica "Más Moneda" creada por Adrián Fitiu mediante la cual los participantes pudieron observar los juegos propuestos en la web para obtener monedas virtuales',
@@ -131,7 +131,7 @@ export default {
         Texto3: "Adrian Fitiu presentando 'Más Moneda'",
       },
       noticia6: {
-        img: "/src/assets/img/noticias/2021/06/Pepe_01.jpg",
+        img: "/src/assets/noticias/2021/06/Pepe_01.jpg",
         alt: "José Navarro",
         Texto1:
           "El alumno José Navarro Roldán presentó una solución virtualizada para el control seguro de acceso a una red WiFi en un dominio controlado por servidores Windows Server y autentificado por Radius",

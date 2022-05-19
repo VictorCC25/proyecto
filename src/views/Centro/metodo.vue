@@ -5,7 +5,7 @@
   </div>
   <div
     class="sticky"
-    style="background-image: url('/src/assets/img/escuela/proyecto1.jpg')"
+    style="background-image: url('/src/assets/escuela/proyecto1.jpg')"
   ></div>
   <div class="titulosticky">
     <h2>Aprendizaje basado en proyectos</h2>
@@ -19,7 +19,7 @@
   </div>
   <div
     class="sticky"
-    style="background-image: url('/src/assets/img/escuela/1a1.jpg')"
+    style="background-image: url('/src/assets/escuela/1a1.jpg')"
   ></div>
   <div class="titulosticky">
     <h2>Somos un centro muy TIC</h2>
@@ -36,7 +36,7 @@
   </div>
   <div
     class="sticky"
-    style="background-image: url('/src/assets/img/escuela/lazo.jpeg')"
+    style="background-image: url('/src/assets/escuela/lazo.jpeg')"
   ></div>
   <div class="titulosticky">
     <h2>Educamos en valores</h2>
@@ -53,7 +53,7 @@
   </div>
   <div
     class="sticky"
-    style="background-image: url('/src/assets/img/escuela/familias.jpg')"
+    style="background-image: url('/src/assets/escuela/familias.jpg')"
   ></div>
   <div class="titulosticky">
     <h2>Trabajamos con las familias</h2>
@@ -69,7 +69,7 @@
   </div>
   <div
     class="sticky"
-    style="background-image: url('/src/assets/img/escuela/como-casa.jpg')"
+    style="background-image: url('/src/assets/escuela/como-casa.jpg')"
   ></div>
   <div class="titulosticky">
     <h2>Orgullosos de nuestra identidad</h2>
@@ -99,45 +99,45 @@ export default {
     return {
       redes: [
         {
-          img: "/src/assets/img/iconos/facebook.svg",
+          img: "/src/assets/iconos/facebook.svg",
           alt: "Facebook",
           class: "Facebook",
           link: "https://www.facebook.com/people/Salesianos-Villamuriel-Palencia/100057348163856/",
         },
         {
-          img: "/src/assets/img/iconos/twitter.svg",
+          img: "/src/assets/iconos/twitter.svg",
           alt: "Twitter",
           class: "Twitter",
           link: "https://twitter.com/centrodonbosco",
         },
         {
-          img: "/src/assets/img/iconos/flickr.svg",
+          img: "/src/assets/iconos/flickr.svg",
           alt: "Flickr",
           class: "Flickr",
           link: "https://www.flickr.com/photos/58942531@N04/",
         },
         {
-          img: "/src/assets/img/iconos/instagram.svg",
+          img: "/src/assets/iconos/instagram.svg",
           alt: "Instagram",
           class: "Instagram",
           link: "https://www.instagram.com/salesianosvillamuriel/",
         },
         {
-          img: "/src/assets/img/iconos/youtube.svg",
+          img: "/src/assets/iconos/youtube.svg",
           alt: "YouTube",
           class: "YouTube",
           link: "https://www.youtube.com/user/donboscovillamuriel",
         },
       ],
       fotosf: {
-        foto1: "/src/assets/img/mapa.jpg",
-        foto2: "/src/assets/img/logos/tic5.png",
-        foto3: "/src/assets/img/logos/excelencia-marco.svg",
-        foto4: "/src/assets/img/logos/calidad.png",
-        foto5: "/src/assets/img/logos/cisco.png",
-        foto6: "/src/assets/img/logos/ms-reverse.png",
-        foto7: "/src/assets/img/logos/oracle-reverse.png",
-        foto8: "/src/assets/img/logos/vmware.png",
+        foto1: "/src/assets/mapa.jpg",
+        foto2: "/src/assets/logos/tic5.png",
+        foto3: "/src/assets/logos/excelencia-marco.svg",
+        foto4: "/src/assets/logos/calidad.png",
+        foto5: "/src/assets/logos/cisco.png",
+        foto6: "/src/assets/logos/ms-reverse.png",
+        foto7: "/src/assets/logos/oracle-reverse.png",
+        foto8: "/src/assets/logos/vmware.png",
       },
     };
   },
@@ -154,7 +154,7 @@ export default {
   background: transparent 50% no-repeat fixed;
   background-size: cover;
   text-align: center;
-  background-image: url("/src/assets/img/escuela/idea.jpg");
+  background-image: url("/src/assets/escuela/idea.jpg");
 }
 .grandemetodo h1 {
   font-weight: 700;
