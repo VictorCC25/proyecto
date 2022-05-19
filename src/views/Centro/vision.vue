@@ -27,6 +27,24 @@ import IzquierdaGrande from './components/izquierda.vue'
 import DerechaLista from './components/derechalista.vue'
 import PiePagina from "../components/footer.vue"
 import MenuNavegacion from "../components/nav.vue"
+import foto30 from "/src/assets/iconos/facebook.svg";
+import foto31 from "/src/assets/iconos/twitter.svg";
+import foto32 from "/src/assets/iconos/flickr.svg";
+import foto33 from "/src/assets/iconos/instagram.svg";
+import foto34 from "/src/assets/iconos/youtube.svg";
+import foto35 from "/src/assets/mapa.jpg";
+import foto36 from "/src/assets/logos/tic5.png";
+import foto37 from "/src/assets/logos/excelencia-marco.svg";
+import foto38 from "/src/assets/logos/calidad.png";
+import foto39 from "/src/assets/logos/cisco.png";
+import foto40 from "/src/assets/logos/ms-reverse.png";
+import foto41 from "/src/assets/logos/oracle-reverse.png";
+import foto42 from "/src/assets/logos/vmware.png";
+import foto104 from "/src/assets/pastoral/n-mision.png";
+import foto105 from "/src/assets/pastoral/n-vision.png";
+import foto106 from "/src/assets/pastoral/n-valores.png";
+
+
 export default {
   data() {
     return {
@@ -41,7 +59,7 @@ export default {
         Texto2:
           "",
         Texto3: "",
-        img: "./assets/pastoral/n-mision.png",
+        img: foto104,
         alt: "Pastoral",
       },
       contenido2: {
@@ -51,7 +69,7 @@ export default {
           Texto3:"Favorecemos una escuela a tiempo completo: tiempo libre educativo y conciliación familiar.",
           Texto4:"Apostamos por la innovación pedagógica: las nuevas metodologías, el plurilingüismo y las tecnologías como instrumentos pedagógicos.",
           Texto5:"Avalamos el protagonismo del alumnado en el proceso de enseñanza-aprendizaje, y aspiramos desde el sentido crítico a la construcción de un mundo mejor.",
-          img:"./assets/pastoral/n-vision.png",
+          img:foto105,
           alt:"Vision"
       },
       contenido3:{
@@ -69,51 +87,51 @@ export default {
           Texto3:"",
           Texto4:"",
           Texto5:"",
-          img:"./assets/pastoral/n-valores.png",
+          img:foto106,
           alt:"Valores",
       },
       redes: [
         {
-          img: "./assets/iconos/facebook.svg",
+          img: foto30,
           alt: "Facebook",
           class: "Facebook",
           link: "https://www.facebook.com/people/Salesianos-Villamuriel-Palencia/100057348163856/",
         },
         {
-          img: "./assets/iconos/twitter.svg",
+          img: foto31,
           alt: "Twitter",
           class: "Twitter",
           link: "https://twitter.com/centrodonbosco",
         },
         {
-          img: "./assets/iconos/flickr.svg",
+          img: foto32,
           alt: "Flickr",
           class: "Flickr",
           link: "https://www.flickr.com/photos/58942531@N04/",
         },
         {
-          img: "./assets/iconos/instagram.svg",
+          img: foto33,
           alt: "Instagram",
           class: "Instagram",
           link: "https://www.instagram.com/salesianosvillamuriel/",
         },
         {
-          img: "./assets/iconos/youtube.svg",
+          img: foto34,
           alt: "YouTube",
           class: "YouTube",
           link: "https://www.youtube.com/user/donboscovillamuriel",
         },
       ],
-      fotosf:{
-        foto1:"./assets/mapa.jpg",
-        foto2:"./assets/logos/tic5.png",
-        foto3:"./assets/logos/excelencia-marco.svg",
-        foto4:"./assets/logos/calidad.png",
-        foto5:"./assets/logos/cisco.png",
-        foto6:"./assets/logos/ms-reverse.png",
-        foto7:"./assets/logos/oracle-reverse.png",
-        foto8:"./assets/logos/vmware.png",
-      }
+      fotosf: {
+        foto1: foto35,
+        foto2: foto36,
+        foto3: foto37,
+        foto4: foto38,
+        foto5: foto39,
+        foto6: foto40,
+        foto7: foto41,
+        foto8: foto42,
+      },
     };
   },
   components: { Titulo, Redes, DerechaPequeño ,IzquierdaGrande,DerechaLista , PiePagina, MenuNavegacion},

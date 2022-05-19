@@ -26,6 +26,30 @@ import documentos from "./components/documentos.vue";
 import Redes from "../components/redes.vue";
 import PiePagina from "../components/footer.vue"
 import MenuNavegacion from "../components/nav.vue"
+import foto30 from "/src/assets/iconos/facebook.svg";
+import foto31 from "/src/assets/iconos/twitter.svg";
+import foto32 from "/src/assets/iconos/flickr.svg";
+import foto33 from "/src/assets/iconos/instagram.svg";
+import foto34 from "/src/assets/iconos/youtube.svg";
+import foto35 from "/src/assets/mapa.jpg";
+import foto36 from "/src/assets/logos/tic5.png";
+import foto37 from "/src/assets/logos/excelencia-marco.svg";
+import foto38 from "/src/assets/logos/calidad.png";
+import foto39 from "/src/assets/logos/cisco.png";
+import foto40 from "/src/assets/logos/ms-reverse.png";
+import foto41 from "/src/assets/logos/oracle-reverse.png";
+import foto42 from "/src/assets/logos/vmware.png";
+import foto93 from "/src/assets/documentos/asir-libros.png";
+import foto94 from "/src/assets/documentos/carroceria-libros.png";
+import foto95 from "/src/assets/documentos/electro-libros.png";
+import foto96 from "/src/assets/documentos/eso-libros.png";
+import foto97 from "/src/assets/documentos/fp-libros.png";
+import foto98 from "/src/assets/documentos/teleco-libros.png";
+import foto99 from "/src/assets/documentos/campaña-2021-22.png";
+import foto100 from "/src/assets/documentos/informacion-fp-dual.png";
+import foto101 from "/src/assets/documentos/candidatos-fp-dual.png";
+import foto102 from "/src/assets/documentos/empresas-fp-dual.png";
+import foto103 from "/src/assets/documentos/solicitud-fp-dual.png";
 
 export default {
   data() {
@@ -37,92 +61,92 @@ export default {
       documentost1: "Documentos generales del centro",
       documentos1: [
           {ruta:"https://drive.google.com/file/d/18udIQ7R3gRRmd8gnqUD9MvvwtF-Pj4sL/view?usp=drive_web",
-          foto:"./assets/documentos/asir-libros.png",
+          foto:foto93,
           nombre:"ASIR-2021-2022.pdf"},
           {ruta:"https://drive.google.com/file/d/1ZWvnSZUrz9vrN5vbYhFND56Ma7HhLJRh/view",
-          foto:"./assets/documentos/carroceria-libros.png",
+          foto:foto94,
           nombre:"Carrocería-2021-2022.pdf"
           },
           {ruta:"https://drive.google.com/file/d/1DLdMwbKNFlmxGdWYaQ--emz8-rGUBvlK/view",
-          foto:"./assets/documentos/electro-libros.png",
+          foto:foto95,
           nombre:"Electromecánica-2021-2022.pdf"
           },
           {ruta:"https://drive.google.com/file/d/1RFaWYjdgiZRzJdFtAzwy0D6luuIdB96c/view",
-          foto:"./assets/documentos/eso-libros.png",
+          foto:foto96,
           nombre:"ESO-2021-2022.pdf"
           },
           {ruta:"https://drive.google.com/file/d/1SebDtDw-QsyZDgQL0YB_CnWWQ4_MpjKg/view",
-          foto:"./assets/documentos/fp-libros.png",
+          foto:foto97,
           nombre:"FP-Basica-2021-2022.pdf"
           },
           {ruta:"https://drive.google.com/file/d/1BMid1bXIhZmjO2elCy6ACTqT8G8U8u0t/view",
-          foto:"./assets/documentos/teleco-libros.png",
+          foto:foto98,
           nombre:"Telecomunicaciones-2021-2022.pdf"
           },
       ],
       documentost2: "Documentos sobre campañas y pastoral",
       documentos2:[
         {ruta:"https://drive.google.com/file/d/14iRsS6JqdN_hk2MvWBdjSh51wrSo3XDI/view",
-          foto:"./assets/documentos/campaña-2021-22.png",
+          foto:foto99,
           nombre:"Campaña-Pastoral-2021-2022.pdf"},
       ],
       documentost3: "Documentos sobre FP Dual",
       documentos3:[
         {ruta:"https://drive.google.com/file/d/1cTxW6s3ixjW2ca7FEHDhDM2IoRhU_Oky/view",
-        foto:"./assets/documentos/informacion-fp-dual.png",
+        foto:foto100,
         nombre:"Información Fp Dula.pdf"},
         {ruta:"https://drive.google.com/file/d/1Pt6_FsWuU-CTIVfFGUbw-TxYrdvvaMMg/view",
-        foto:"./assets/documentos/candidatos-fp-dual.png",
+        foto:foto101,
         nombre:"Listado Definitivo Candidatos Dual.pdf"},
         {ruta:"https://drive.google.com/file/d/1hzvJPQShRXT2JxUGPDA1xj6PFGp8-28j/view",
-        foto:"./assets/documentos/empresas-fp-dual.png",
+        foto: foto102,
         nombre:"Listado Empresas FP Dual.pdf"},
         {ruta:"https://drive.google.com/file/d/125ihz8I6OYerXUqfZvaiP8ttWf_6HJos/view",
-        foto:"./assets/documentos/solicitud-fp-dual.png",
+        foto:foto103,
         nombre:"Solicitud FP Dual.jpg"},
       ],
       redes: [
         {
-          img: "./assets/iconos/facebook.svg",
+          img: foto30,
           alt: "Facebook",
           class: "Facebook",
           link: "https://www.facebook.com/people/Salesianos-Villamuriel-Palencia/100057348163856/",
         },
         {
-          img: "./assets/iconos/twitter.svg",
+          img: foto31,
           alt: "Twitter",
           class: "Twitter",
           link: "https://twitter.com/centrodonbosco",
         },
         {
-          img: "./assets/iconos/flickr.svg",
+          img: foto32,
           alt: "Flickr",
           class: "Flickr",
           link: "https://www.flickr.com/photos/58942531@N04/",
         },
         {
-          img: "./assets/iconos/instagram.svg",
+          img: foto33,
           alt: "Instagram",
           class: "Instagram",
           link: "https://www.instagram.com/salesianosvillamuriel/",
         },
         {
-          img: "./assets/iconos/youtube.svg",
+          img: foto34,
           alt: "YouTube",
           class: "YouTube",
           link: "https://www.youtube.com/user/donboscovillamuriel",
         },
       ],
-      fotosf:{
-        foto1:"./assets/mapa.jpg",
-        foto2:"./assets/logos/tic5.png",
-        foto3:"./assets/logos/excelencia-marco.svg",
-        foto4:"./assets/logos/calidad.png",
-        foto5:"./assets/logos/cisco.png",
-        foto6:"./assets/logos/ms-reverse.png",
-        foto7:"./assets/logos/oracle-reverse.png",
-        foto8:"./assets/logos/vmware.png",
-      }
+      fotosf: {
+        foto1: foto35,
+        foto2: foto36,
+        foto3: foto37,
+        foto4: foto38,
+        foto5: foto39,
+        foto6: foto40,
+        foto7: foto41,
+        foto8: foto42,
+      },
     };
   },
   components: { Titulo, documentos, Redes, PiePagina,MenuNavegacion},

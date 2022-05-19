@@ -38,6 +38,31 @@ import Fotos from "./components/fotos.vue";
 import Redes from "../components/redes.vue";
 import PiePagina from "../components/footer.vue"
 import MenuNavegacion from "../components/nav.vue"
+import foto30 from "/src/assets/iconos/facebook.svg";
+import foto31 from "/src/assets/iconos/twitter.svg";
+import foto32 from "/src/assets/iconos/flickr.svg";
+import foto33 from "/src/assets/iconos/instagram.svg";
+import foto34 from "/src/assets/iconos/youtube.svg";
+import foto35 from "/src/assets/mapa.jpg";
+import foto36 from "/src/assets/logos/tic5.png";
+import foto37 from "/src/assets/logos/excelencia-marco.svg";
+import foto38 from "/src/assets/logos/calidad.png";
+import foto39 from "/src/assets/logos/cisco.png";
+import foto40 from "/src/assets/logos/ms-reverse.png";
+import foto41 from "/src/assets/logos/oracle-reverse.png";
+import foto42 from "/src/assets/logos/vmware.png";
+import foto56 from "/src/assets/oferta/info/eso.jpg";
+import foto57 from "/src/assets/ciclos/eso/coches.jpg";
+import foto58 from "/src/assets/ciclos/eso/croma.jpg";
+import foto59 from "/src/assets/ciclos/eso/valores.jpg";
+import foto60 from "/src/assets/ciclos/eso/eso01.jpg";
+import foto61 from "/src/assets/ciclos/eso/eso02.jpg";
+import foto62 from "/src/assets/ciclos/eso/eso03.jpg";
+import foto63 from "/src/assets/ciclos/eso/eso04.jpg";
+import foto64 from "/src/assets/ciclos/eso/eso05.jpg";
+import foto65 from "/src/assets/ciclos/eso/eso06.jpg";
+import foto66 from "/src/assets/ciclos/eso/eso07.jpg";
+import foto67 from "/src/assets/ciclos/eso/eso08.jpg";
 
 export default {
   data() {
@@ -51,7 +76,7 @@ export default {
           "La Educación Secundaria Obligatoria (ESO) cubre la etapa en la cual los alumnos y alumnas tomarán las primeras decisiones importantes sobre su futuro personal y profesional en un camino en el que nuestro acompañamiento busca la mayor calidad educativa.",
         Texto3:
           "No nos quedamos solo en los contenidos académicos, queremos ir más allá. Trabajamos por una enseñanza en valores con el objetivo de que nuestro alumnado se convierta en personas seguras, felices e implicadas en la mejora de su entorno social, cultural y ecológico.",
-        img: "./assets/oferta/info/eso.jpg",
+        img: foto56,
         alt: "Info ESO",
       },
       fila: {
@@ -86,7 +111,7 @@ export default {
         Texto2:
           "Buscamos un aprendizaje significativo, que tenga en cuenta la diversidad de nuestro alumnado y la realidad del entorno en el que se encuentran. Por ello los proyectos nos encantan, porque apuntalan nuestro método educativo.",
         Texto3: " ",
-        img: "./assets/ciclos/eso/coches.jpg",
+        img: foto57,
         alt: "Coches ESO",
       },
       contenido3: {
@@ -97,7 +122,7 @@ export default {
           "Actualmente mantenemos una estrategia 1 a 1 (un dispositivo por alumno) que en secundaria se basa en que cada alumno dispone de un Chromebook, portátil en el que los contenidos son exclusivamente educativos.",
         Texto3:
           "Usamos la tecnología en pro de aplicar métodos activos de enseñanza. La tecnología facilita la participación de los alumnos en proyectos motivantes impulsados por las últimas tecnologías.",
-        img: "./assets/ciclos/eso/croma.jpg",
+        img: foto58,
       },
       contenido4: {
         Titulo: "Educando en valores",
@@ -107,60 +132,60 @@ export default {
           "Nuestro centro se inspira en los valores salesianos que fomentan un método preventivo de educación. La educación en valores es la base de nuestro trabajo para conseguir personas cuyos valores sean inspiradores.",
         Texto3:
           "Trabajamos en conjunto con las familias para conseguir un apoyo educativo constante y un mejor acompañamiento de nuestro alumnado.",
-        img: "./assets/ciclos/eso/valores.jpg",
+        img: foto59,
       },
       fotos: [
-        { img: "./assets/ciclos/eso/eso01.jpg", alt: "ESO1" },
-        { img: "./assets/ciclos/eso/eso02.jpg", alt: "ESO2" },
-        { img: "./assets/ciclos/eso/eso03.jpg", alt: "ESO3" },
-        { img: "./assets/ciclos/eso/eso04.jpg", alt: "ESO4" },
-        { img: "./assets/ciclos/eso/eso05.jpg", alt: "ESO5" },
-        { img: "./assets/ciclos/eso/eso06.jpg", alt: "ESO6" },
-        { img: "./assets/ciclos/eso/eso07.jpg", alt: "ESO7" },
-        { img: "./assets/ciclos/eso/eso08.jpg", alt: "ESO8" },
+        { img: foto60, alt: "ESO1" },
+        { img: foto61, alt: "ESO2" },
+        { img: foto62, alt: "ESO3" },
+        { img: foto63, alt: "ESO4" },
+        { img: foto64, alt: "ESO5" },
+        { img: foto65, alt: "ESO6" },
+        { img: foto66, alt: "ESO7" },
+        { img: foto67, alt: "ESO8" },
       ],
       redes: [
         {
-          img: "./assets/iconos/facebook.svg",
+          img: foto30,
           alt: "Facebook",
           class: "Facebook",
           link: "https://www.facebook.com/people/Salesianos-Villamuriel-Palencia/100057348163856/",
         },
         {
-          img: "./assets/iconos/twitter.svg",
+          img: foto31,
           alt: "Twitter",
           class: "Twitter",
           link: "https://twitter.com/centrodonbosco",
         },
         {
-          img: "./assets/iconos/flickr.svg",
+          img: foto32,
           alt: "Flickr",
           class: "Flickr",
           link: "https://www.flickr.com/photos/58942531@N04/",
         },
         {
-          img: "./assets/iconos/instagram.svg",
+          img: foto33,
           alt: "Instagram",
           class: "Instagram",
           link: "https://www.instagram.com/salesianosvillamuriel/",
         },
         {
-          img: "./assets/iconos/youtube.svg",
+          img: foto34,
           alt: "YouTube",
           class: "YouTube",
           link: "https://www.youtube.com/user/donboscovillamuriel",
         },
       ],
-      fotosf:{
-        foto1:"./assets/mapa.jpg",
-        foto2:"./assets/logos/tic5.png",
-        foto3:"./assets/logos/excelencia-marco.svg",
-        foto4:"./assets/logos/calidad.png",
-        foto5:"./assets/logos/cisco.png",
-        foto6:"./assets/logos/ms-reverse.png",
-        foto7:"./assets/logos/oracle-reverse.png",
-        foto8:"./assets/logos/vmware.png",
-      }
+      fotosf: {
+        foto1: foto35,
+        foto2: foto36,
+        foto3: foto37,
+        foto4: foto38,
+        foto5: foto39,
+        foto6: foto40,
+        foto7: foto41,
+        foto8: foto42,
+      },
     };
   },
   components: { Titulo, Izquierda, Derecha, Fila, Fotos, Redes, PiePagina,MenuNavegacion},
@@ -171,7 +196,7 @@ export default {
 </script>
 <style>
 .fondoeso {
-  background-image: url("./assets/ciclos/fondo-eso.jpg");
+  background-image: url("/src/assets/ciclos/fondo-eso.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;

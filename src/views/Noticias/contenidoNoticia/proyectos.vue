@@ -37,6 +37,25 @@ import PiePagina from "../components/footer.vue";
 import DerechaPieFoto from "../components/derechapiefoto.vue";
 import IzquierdaPieFoto from "../components/izquierdapiefoto.vue";
 import MenuNavegacion from "../components/nav.vue"
+import foto30 from "/src/assets/iconos/facebook.svg";
+import foto31 from "/src/assets/iconos/twitter.svg";
+import foto32 from "/src/assets/iconos/flickr.svg";
+import foto33 from "/src/assets/iconos/instagram.svg";
+import foto34 from "/src/assets/iconos/youtube.svg";
+import foto35 from "/src/assets/mapa.jpg";
+import foto36 from "/src/assets/logos/tic5.png";
+import foto37 from "/src/assets/logos/excelencia-marco.svg";
+import foto38 from "/src/assets/logos/calidad.png";
+import foto39 from "/src/assets/logos/cisco.png";
+import foto40 from "/src/assets/logos/ms-reverse.png";
+import foto41 from "/src/assets/logos/oracle-reverse.png";
+import foto42 from "/src/assets/logos/vmware.png";
+import foto109 from "/src/assets/noticias/2021/06/Autoridades.jpg";
+import foto113 from "/src/assets/noticias/2021/06/Diego_01.jpg";
+import foto114 from "/src/assets/noticias/2021/06/Eva_01.jpg";
+import foto115 from "/src/assets/noticias/2021/06/Benjamin_01.jpg"
+import foto116 from "/src/assets/noticias/2021/06/Adrian_01.jpg";
+import foto117 from "/src/assets/noticias/2021/06/Pepe_01.jpg"
 
 export default {
   data() {
@@ -47,48 +66,48 @@ export default {
       },
       redes: [
         {
-          img: "./assets/iconos/facebook.svg",
+          img: foto30,
           alt: "Facebook",
           class: "Facebook",
           link: "https://www.facebook.com/people/Salesianos-Villamuriel-Palencia/100057348163856/",
         },
         {
-          img: "./assets/iconos/twitter.svg",
+          img: foto31,
           alt: "Twitter",
           class: "Twitter",
           link: "https://twitter.com/centrodonbosco",
         },
         {
-          img: "./assets/iconos/flickr.svg",
+          img: foto32,
           alt: "Flickr",
           class: "Flickr",
           link: "https://www.flickr.com/photos/58942531@N04/",
         },
         {
-          img: "./assets/iconos/instagram.svg",
+          img: foto33,
           alt: "Instagram",
           class: "Instagram",
           link: "https://www.instagram.com/salesianosvillamuriel/",
         },
         {
-          img: "./assets/iconos/youtube.svg",
+          img: foto34,
           alt: "YouTube",
           class: "YouTube",
           link: "https://www.youtube.com/user/donboscovillamuriel",
         },
       ],
       fotosf: {
-        foto1: "./assets/mapa.jpg",
-        foto2: "./assets/logos/tic5.png",
-        foto3: "./assets/logos/excelencia-marco.svg",
-        foto4: "./assets/logos/calidad.png",
-        foto5: "./assets/logos/cisco.png",
-        foto6: "./assets/logos/ms-reverse.png",
-        foto7: "./assets/logos/oracle-reverse.png",
-        foto8: "./assets/logos/vmware.png",
+        foto1: foto35,
+        foto2: foto36,
+        foto3: foto37,
+        foto4: foto38,
+        foto5: foto39,
+        foto6: foto40,
+        foto7: foto41,
+        foto8: foto42,
       },
       noticia1: {
-        img: "./assets/noticias/2021/06/Autoridades.jpg",
+        img: foto109,
         alt: "Autoridades",
         Texto1:
           "El paso 3 de Junio los alumnos de 2º curso del ciclo de Administración de Sistemas Informáticos en Red han presentado sus proyectos en el Teatro Jesús de Meneses.",
@@ -97,7 +116,7 @@ export default {
         Texto3: "Autoridades presentes en la presentación de proyectos",
       },
       noticia2: {
-        img: "./assets/noticias/2021/06/Diego_01.jpg",
+        img: foto113,
         alt: "Diego Bartolome",
         Texto1:
           "Este año hemos disfrutar de todo tipo de temáticas en los proyectos",
@@ -106,7 +125,7 @@ export default {
         Texto3: "El alumno Diego Bartolome preparando su presentación",
       },
       noticia3: {
-        img: "./assets/noticias/2021/06/Eva_01.jpg",
+        img: foto114,
         alt: "Eva María Infante",
         Texto1:
           "La robótica y el Internet de las Cosas estaba presente en el proyecto ArduiCar presentado por Eva María Infante Maestro en el que se demostraba el funcionamiento de un robot automóvil con todo tipo de sensores",
@@ -114,7 +133,7 @@ export default {
         Texto3: "Examinando el 'ArduiCar' de Eva María Infante",
       },
       noticia4: {
-        img: "./assets/noticias/2021/06/Benjamin_01.jpg",
+        img: foto115,
         alt: "Benjamin Gordo",
         Texto1:
           "El proyecto de ciberseguridad en el que se analizaba las 10 vulnerabilidades web presentes en OWASP Top 10, presentado por Benjamín Gordo Cortés presentaba un análisis profundo y soluciones ante el creciente problema de la seguridad en las aplicaciones web",
@@ -123,7 +142,7 @@ export default {
           "Benjamin Gordo presentando su proyecto sobre las vulnerabilidades OWASP Top 10",
       },
       noticia5: {
-        img: "./assets/noticias/2021/06/Adrian_01.jpg",
+        img: foto116,
         alt: "Adrian Fitiu",
         Texto1:
           'Hemos disfrutado de la aplicación web lúdica "Más Moneda" creada por Adrián Fitiu mediante la cual los participantes pudieron observar los juegos propuestos en la web para obtener monedas virtuales',
@@ -131,7 +150,7 @@ export default {
         Texto3: "Adrian Fitiu presentando 'Más Moneda'",
       },
       noticia6: {
-        img: "./assets/noticias/2021/06/Pepe_01.jpg",
+        img: foto117,
         alt: "José Navarro",
         Texto1:
           "El alumno José Navarro Roldán presentó una solución virtualizada para el control seguro de acceso a una red WiFi en un dominio controlado por servidores Windows Server y autentificado por Radius",

@@ -40,6 +40,23 @@ import Modulos from "./components/modulos.vue";
 import Redes from "../components/redes.vue";
 import PiePagina from "../components/footer.vue"
 import MenuNavegacion from "../components/nav.vue"
+import foto30 from "/src/assets/iconos/facebook.svg";
+import foto31 from "/src/assets/iconos/twitter.svg";
+import foto32 from "/src/assets/iconos/flickr.svg";
+import foto33 from "/src/assets/iconos/instagram.svg";
+import foto34 from "/src/assets/iconos/youtube.svg";
+import foto35 from "/src/assets/mapa.jpg";
+import foto36 from "/src/assets/logos/tic5.png";
+import foto37 from "/src/assets/logos/excelencia-marco.svg";
+import foto38 from "/src/assets/logos/calidad.png";
+import foto39 from "/src/assets/logos/cisco.png";
+import foto40 from "/src/assets/logos/ms-reverse.png";
+import foto41 from "/src/assets/logos/oracle-reverse.png";
+import foto42 from "/src/assets/logos/vmware.png";
+import foto44 from "/src/assets/ciclos/asir01.jpg";
+import foto45 from "/src/assets/ciclos/asir/asir02.jpg";
+import foto46 from "/src/assets/ciclos/asir/asir03.jpg";
+import foto47 from  "/src/assets/ciclos/asir/asir04.jpg"
 
 export default {
   data() {
@@ -56,7 +73,7 @@ export default {
           "El ciclo permite conseguir las capacidades y habilidades que se requieren a un técnico superior en administración de sistemas, redes y tecnologías relacionadas con Internet",
         Texto3:
           "Se recorren, durante los dos años de duración del ciclo, el funcionamiento de las redes, tanto locales como de área global (especialmente Internet), el diseño, manejo y administración de sistemas de bases de datos, la administración de sistemas operativos de servidor, virtualización de sistemas, desarrollo e implementación de aplicaciones web, seguridad de sistemas, gestión y administración de servicios de red, etc.",
-        img: "./assets/ciclos/asir01.jpg",
+        img: foto44,
         alt: "ASIR",
       },
       fila: {
@@ -85,10 +102,10 @@ export default {
         ],
       },
       fotos: [
-        { img: "./assets/ciclos/asir/asir01.jpg", alt: "ASIR1" },
-        { img: "./assets/ciclos/asir/asir02.jpg", alt: "ASIR2" },
-        { img: "./assets/ciclos/asir/asir03.jpg", alt: "ASIR3" },
-        { img: "./assets/ciclos/asir/asir04.jpg", alt: "ASIR4" },
+        { img: foto44, alt: "ASIR1" },
+        { img: foto45, alt: "ASIR2" },
+        { img: foto46, alt: "ASIR3" },
+        { img: foto47, alt: "ASIR4" },
       ],
       listas1: [
         { Texto: "Título de Bachillerato" },
@@ -139,46 +156,46 @@ export default {
       ],
       redes: [
         {
-          img: "./assets/iconos/facebook.svg",
+          img: foto30,
           alt: "Facebook",
           class: "Facebook",
           link: "https://www.facebook.com/people/Salesianos-Villamuriel-Palencia/100057348163856/",
         },
         {
-          img: "./assets/iconos/twitter.svg",
+          img: foto31,
           alt: "Twitter",
           class: "Twitter",
           link: "https://twitter.com/centrodonbosco",
         },
         {
-          img: "./assets/iconos/flickr.svg",
+          img: foto32,
           alt: "Flickr",
           class: "Flickr",
           link: "https://www.flickr.com/photos/58942531@N04/",
         },
         {
-          img: "./assets/iconos/instagram.svg",
+          img: foto33,
           alt: "Instagram",
           class: "Instagram",
           link: "https://www.instagram.com/salesianosvillamuriel/",
         },
         {
-          img: "./assets/iconos/youtube.svg",
+          img: foto34,
           alt: "YouTube",
           class: "YouTube",
           link: "https://www.youtube.com/user/donboscovillamuriel",
         },
       ],
-      fotosf:{
-        foto1:"./assets/mapa.jpg",
-        foto2:"./assets/logos/tic5.png",
-        foto3:"./assets/logos/excelencia-marco.svg",
-        foto4:"./assets/logos/calidad.png",
-        foto5:"./assets/logos/cisco.png",
-        foto6:"./assets/logos/ms-reverse.png",
-        foto7:"./assets/logos/oracle-reverse.png",
-        foto8:"./assets/logos/vmware.png",
-      }
+      fotosf: {
+        foto1: foto35,
+        foto2: foto36,
+        foto3: foto37,
+        foto4: foto38,
+        foto5: foto39,
+        foto6: foto40,
+        foto7: foto41,
+        foto8: foto42,
+      },
     };
   },
   components: { Titulo, Izquierda, Fila, Fotos, Lista, Modulos, Redes ,PiePagina, MenuNavegacion},
@@ -190,7 +207,7 @@ export default {
 Modulost>
 <style>
 .fondoasir {
-  background-image: url("./assets/ciclos/fondo-asir.jpg");
+  background-image: url("/src/assets/ciclos/fondo-asir.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
