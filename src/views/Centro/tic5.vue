@@ -43,50 +43,50 @@ export default {
               {texto:"La implicación y el conocimiento en TIC es muy alto y se aplican en la totalidad de los procesos."},
           ],
         Texto5:"Esto no significa un punto y final en nuestra estrategia de integración de la tecnología, sino una motivación extra para continuar buscando la excelencia en la aplicación de metodologías activas que impulsen la motivación y un alto grado de desempeño en todo nuestro alumnado.",
-        img: "/src/img/logos/tic5-grande.png",
+        img: "/src/assets/img/logos/tic5-grande.png",
         alt: "TIC 5",
       },
       redes: [
         {
-          img: "/src/img/iconos/facebook.svg",
+          img: "/src/assets/img/iconos/facebook.svg",
           alt: "Facebook",
           class: "Facebook",
           link: "https://www.facebook.com/people/Salesianos-Villamuriel-Palencia/100057348163856/",
         },
         {
-          img: "/src/img/iconos/twitter.svg",
+          img: "/src/assets/img/iconos/twitter.svg",
           alt: "Twitter",
           class: "Twitter",
           link: "https://twitter.com/centrodonbosco",
         },
         {
-          img: "/src/img/iconos/flickr.svg",
+          img: "/src/assets/img/iconos/flickr.svg",
           alt: "Flickr",
           class: "Flickr",
           link: "https://www.flickr.com/photos/58942531@N04/",
         },
         {
-          img: "/src/img/iconos/instagram.svg",
+          img: "/src/assets/img/iconos/instagram.svg",
           alt: "Instagram",
           class: "Instagram",
           link: "https://www.instagram.com/salesianosvillamuriel/",
         },
         {
-          img: "/src/img/iconos/youtube.svg",
+          img: "/src/assets/img/iconos/youtube.svg",
           alt: "YouTube",
           class: "YouTube",
           link: "https://www.youtube.com/user/donboscovillamuriel",
         },
       ],
       fotosf: {
-        foto1: "/src/img/mapa.jpg",
-        foto2: "/src/img/logos/tic5.png",
-        foto3: "/src/img/logos/excelencia-marco.svg",
-        foto4: "/src/img/logos/calidad.png",
-        foto5: "/src/img/logos/cisco.png",
-        foto6: "/src/img/logos/ms-reverse.png",
-        foto7: "/src/img/logos/oracle-reverse.png",
-        foto8: "/src/img/logos/vmware.png",
+        foto1: "/src/assets/img/mapa.jpg",
+        foto2: "/src/assets/img/logos/tic5.png",
+        foto3: "/src/assets/img/logos/excelencia-marco.svg",
+        foto4: "/src/assets/img/logos/calidad.png",
+        foto5: "/src/assets/img/logos/cisco.png",
+        foto6: "/src/assets/img/logos/ms-reverse.png",
+        foto7: "/src/assets/img/logos/oracle-reverse.png",
+        foto8: "/src/assets/img/logos/vmware.png",
       },
     };
   },
@@ -98,7 +98,7 @@ export default {
 </script>
 <style>
 .fondotic5 {
-  background-image: url("/src/img/escuela/tic.jpg");
+  background-image: url("/src/assets/img/escuela/tic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;

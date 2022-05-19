@@ -51,7 +51,7 @@ export default {
           "La Educación Secundaria Obligatoria (ESO) cubre la etapa en la cual los alumnos y alumnas tomarán las primeras decisiones importantes sobre su futuro personal y profesional en un camino en el que nuestro acompañamiento busca la mayor calidad educativa.",
         Texto3:
           "No nos quedamos solo en los contenidos académicos, queremos ir más allá. Trabajamos por una enseñanza en valores con el objetivo de que nuestro alumnado se convierta en personas seguras, felices e implicadas en la mejora de su entorno social, cultural y ecológico.",
-        img: "/src/img/oferta/info/eso.jpg",
+        img: "/src/assets/img/oferta/info/eso.jpg",
         alt: "Info ESO",
       },
       fila: {
@@ -86,7 +86,7 @@ export default {
         Texto2:
           "Buscamos un aprendizaje significativo, que tenga en cuenta la diversidad de nuestro alumnado y la realidad del entorno en el que se encuentran. Por ello los proyectos nos encantan, porque apuntalan nuestro método educativo.",
         Texto3: " ",
-        img: "/src/img/ciclos/eso/coches.jpg",
+        img: "/src/assets/img/ciclos/eso/coches.jpg",
         alt: "Coches ESO",
       },
       contenido3: {
@@ -97,7 +97,7 @@ export default {
           "Actualmente mantenemos una estrategia 1 a 1 (un dispositivo por alumno) que en secundaria se basa en que cada alumno dispone de un Chromebook, portátil en el que los contenidos son exclusivamente educativos.",
         Texto3:
           "Usamos la tecnología en pro de aplicar métodos activos de enseñanza. La tecnología facilita la participación de los alumnos en proyectos motivantes impulsados por las últimas tecnologías.",
-        img: "/src/img/ciclos/eso/croma.jpg",
+        img: "/src/assets/img/ciclos/eso/croma.jpg",
       },
       contenido4: {
         Titulo: "Educando en valores",
@@ -107,59 +107,59 @@ export default {
           "Nuestro centro se inspira en los valores salesianos que fomentan un método preventivo de educación. La educación en valores es la base de nuestro trabajo para conseguir personas cuyos valores sean inspiradores.",
         Texto3:
           "Trabajamos en conjunto con las familias para conseguir un apoyo educativo constante y un mejor acompañamiento de nuestro alumnado.",
-        img: "/src/img/ciclos/eso/valores.jpg",
+        img: "/src/assets/img/ciclos/eso/valores.jpg",
       },
       fotos: [
-        { img: "/src/img/ciclos/eso/eso01.jpg", alt: "ESO1" },
-        { img: "/src/img/ciclos/eso/eso02.jpg", alt: "ESO2" },
-        { img: "/src/img/ciclos/eso/eso03.jpg", alt: "ESO3" },
-        { img: "/src/img/ciclos/eso/eso04.jpg", alt: "ESO4" },
-        { img: "/src/img/ciclos/eso/eso05.jpg", alt: "ESO5" },
-        { img: "/src/img/ciclos/eso/eso06.jpg", alt: "ESO6" },
-        { img: "/src/img/ciclos/eso/eso07.jpg", alt: "ESO7" },
-        { img: "/src/img/ciclos/eso/eso08.jpg", alt: "ESO8" },
+        { img: "/src/assets/img/ciclos/eso/eso01.jpg", alt: "ESO1" },
+        { img: "/src/assets/img/ciclos/eso/eso02.jpg", alt: "ESO2" },
+        { img: "/src/assets/img/ciclos/eso/eso03.jpg", alt: "ESO3" },
+        { img: "/src/assets/img/ciclos/eso/eso04.jpg", alt: "ESO4" },
+        { img: "/src/assets/img/ciclos/eso/eso05.jpg", alt: "ESO5" },
+        { img: "/src/assets/img/ciclos/eso/eso06.jpg", alt: "ESO6" },
+        { img: "/src/assets/img/ciclos/eso/eso07.jpg", alt: "ESO7" },
+        { img: "/src/assets/img/ciclos/eso/eso08.jpg", alt: "ESO8" },
       ],
       redes: [
         {
-          img: "/src/img/iconos/facebook.svg",
+          img: "/src/assets/img/iconos/facebook.svg",
           alt: "Facebook",
           class: "Facebook",
           link: "https://www.facebook.com/people/Salesianos-Villamuriel-Palencia/100057348163856/",
         },
         {
-          img: "/src/img/iconos/twitter.svg",
+          img: "/src/assets/img/iconos/twitter.svg",
           alt: "Twitter",
           class: "Twitter",
           link: "https://twitter.com/centrodonbosco",
         },
         {
-          img: "/src/img/iconos/flickr.svg",
+          img: "/src/assets/img/iconos/flickr.svg",
           alt: "Flickr",
           class: "Flickr",
           link: "https://www.flickr.com/photos/58942531@N04/",
         },
         {
-          img: "/src/img/iconos/instagram.svg",
+          img: "/src/assets/img/iconos/instagram.svg",
           alt: "Instagram",
           class: "Instagram",
           link: "https://www.instagram.com/salesianosvillamuriel/",
         },
         {
-          img: "/src/img/iconos/youtube.svg",
+          img: "/src/assets/img/iconos/youtube.svg",
           alt: "YouTube",
           class: "YouTube",
           link: "https://www.youtube.com/user/donboscovillamuriel",
         },
       ],
       fotosf:{
-        foto1:"/src/img/mapa.jpg",
-        foto2:"/src/img/logos/tic5.png",
-        foto3:"/src/img/logos/excelencia-marco.svg",
-        foto4:"/src/img/logos/calidad.png",
-        foto5:"/src/img/logos/cisco.png",
-        foto6:"/src/img/logos/ms-reverse.png",
-        foto7:"/src/img/logos/oracle-reverse.png",
-        foto8:"/src/img/logos/vmware.png",
+        foto1:"/src/assets/img/mapa.jpg",
+        foto2:"/src/assets/img/logos/tic5.png",
+        foto3:"/src/assets/img/logos/excelencia-marco.svg",
+        foto4:"/src/assets/img/logos/calidad.png",
+        foto5:"/src/assets/img/logos/cisco.png",
+        foto6:"/src/assets/img/logos/ms-reverse.png",
+        foto7:"/src/assets/img/logos/oracle-reverse.png",
+        foto8:"/src/assets/img/logos/vmware.png",
       }
     };
   },
@@ -171,7 +171,7 @@ export default {
 </script>
 <style>
 .fondoeso {
-  background-image: url("/src/img/ciclos/fondo-eso.jpg");
+  background-image: url("/src/assets/img/ciclos/fondo-eso.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;

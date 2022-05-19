@@ -41,7 +41,7 @@ export default {
         Texto2:
           "",
         Texto3: "",
-        img: "/src/img/pastoral/n-mision.png",
+        img: "/src/assets/img/pastoral/n-mision.png",
         alt: "Pastoral",
       },
       contenido2: {
@@ -51,7 +51,7 @@ export default {
           Texto3:"Favorecemos una escuela a tiempo completo: tiempo libre educativo y conciliación familiar.",
           Texto4:"Apostamos por la innovación pedagógica: las nuevas metodologías, el plurilingüismo y las tecnologías como instrumentos pedagógicos.",
           Texto5:"Avalamos el protagonismo del alumnado en el proceso de enseñanza-aprendizaje, y aspiramos desde el sentido crítico a la construcción de un mundo mejor.",
-          img:"/src/img/pastoral/n-vision.png",
+          img:"/src/assets/img/pastoral/n-vision.png",
           alt:"Vision"
       },
       contenido3:{
@@ -69,50 +69,50 @@ export default {
           Texto3:"",
           Texto4:"",
           Texto5:"",
-          img:"/src/img/pastoral/n-valores.png",
+          img:"/src/assets/img/pastoral/n-valores.png",
           alt:"Valores",
       },
       redes: [
         {
-          img: "/src/img/iconos/facebook.svg",
+          img: "/src/assets/img/iconos/facebook.svg",
           alt: "Facebook",
           class: "Facebook",
           link: "https://www.facebook.com/people/Salesianos-Villamuriel-Palencia/100057348163856/",
         },
         {
-          img: "/src/img/iconos/twitter.svg",
+          img: "/src/assets/img/iconos/twitter.svg",
           alt: "Twitter",
           class: "Twitter",
           link: "https://twitter.com/centrodonbosco",
         },
         {
-          img: "/src/img/iconos/flickr.svg",
+          img: "/src/assets/img/iconos/flickr.svg",
           alt: "Flickr",
           class: "Flickr",
           link: "https://www.flickr.com/photos/58942531@N04/",
         },
         {
-          img: "/src/img/iconos/instagram.svg",
+          img: "/src/assets/img/iconos/instagram.svg",
           alt: "Instagram",
           class: "Instagram",
           link: "https://www.instagram.com/salesianosvillamuriel/",
         },
         {
-          img: "/src/img/iconos/youtube.svg",
+          img: "/src/assets/img/iconos/youtube.svg",
           alt: "YouTube",
           class: "YouTube",
           link: "https://www.youtube.com/user/donboscovillamuriel",
         },
       ],
       fotosf:{
-        foto1:"/src/img/mapa.jpg",
-        foto2:"/src/img/logos/tic5.png",
-        foto3:"/src/img/logos/excelencia-marco.svg",
-        foto4:"/src/img/logos/calidad.png",
-        foto5:"/src/img/logos/cisco.png",
-        foto6:"/src/img/logos/ms-reverse.png",
-        foto7:"/src/img/logos/oracle-reverse.png",
-        foto8:"/src/img/logos/vmware.png",
+        foto1:"/src/assets/img/mapa.jpg",
+        foto2:"/src/assets/img/logos/tic5.png",
+        foto3:"/src/assets/img/logos/excelencia-marco.svg",
+        foto4:"/src/assets/img/logos/calidad.png",
+        foto5:"/src/assets/img/logos/cisco.png",
+        foto6:"/src/assets/img/logos/ms-reverse.png",
+        foto7:"/src/assets/img/logos/oracle-reverse.png",
+        foto8:"/src/assets/img/logos/vmware.png",
       }
     };
   },
