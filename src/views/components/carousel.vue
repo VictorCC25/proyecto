@@ -9,7 +9,7 @@
       <h1>{{ noticia.Titulo }}</h1>
       <div class="tarjetas">
         <div class="carouselimg">
-          <img v-bind:src=noticia.img v-bind:alt="noticia.alt" />
+          <img v-bind:src="noticia.img" v-bind:alt="noticia.alt" />
         </div>
         <div class="carouseltexto">
           <p class="tarjeta-texto">{{ noticia.Texto }}</p>
