@@ -33,50 +33,50 @@ export default {
       documentost: "DOCUMENTOS PARA MATRICULACIÓN",
       documentos: [
           {ruta:"https://drive.google.com/file/d/12w9DDifSo-EKhy10MJTcX_IKlxsSeO1Z/view?usp=drive_web",
-          foto:"/src/assets/documentos/FP-2021-online.png",
+          foto:"./assets/documentos/FP-2021-online.png",
           nombre:"FP-2021-online.pdf"},
       ],
       redes: [
         {
-          img: "/src/assets/iconos/facebook.svg",
+          img: "./assets/iconos/facebook.svg",
           alt: "Facebook",
           class: "Facebook",
           link: "https://www.facebook.com/people/Salesianos-Villamuriel-Palencia/100057348163856/",
         },
         {
-          img: "/src/assets/iconos/twitter.svg",
+          img: "./assets/iconos/twitter.svg",
           alt: "Twitter",
           class: "Twitter",
           link: "https://twitter.com/centrodonbosco",
         },
         {
-          img: "/src/assets/iconos/flickr.svg",
+          img: "./assets/iconos/flickr.svg",
           alt: "Flickr",
           class: "Flickr",
           link: "https://www.flickr.com/photos/58942531@N04/",
         },
         {
-          img: "/src/assets/iconos/instagram.svg",
+          img: "./assets/iconos/instagram.svg",
           alt: "Instagram",
           class: "Instagram",
           link: "https://www.instagram.com/salesianosvillamuriel/",
         },
         {
-          img: "/src/assets/iconos/youtube.svg",
+          img: "./assets/iconos/youtube.svg",
           alt: "YouTube",
           class: "YouTube",
           link: "https://www.youtube.com/user/donboscovillamuriel",
         },
       ],
       fotosf:{
-        foto1:"/src/assets/mapa.jpg",
-        foto2:"/src/assets/logos/tic5.png",
-        foto3:"/src/assets/logos/excelencia-marco.svg",
-        foto4:"/src/assets/logos/calidad.png",
-        foto5:"/src/assets/logos/cisco.png",
-        foto6:"/src/assets/logos/ms-reverse.png",
-        foto7:"/src/assets/logos/oracle-reverse.png",
-        foto8:"/src/assets/logos/vmware.png",
+        foto1:"./assets/mapa.jpg",
+        foto2:"./assets/logos/tic5.png",
+        foto3:"./assets/logos/excelencia-marco.svg",
+        foto4:"./assets/logos/calidad.png",
+        foto5:"./assets/logos/cisco.png",
+        foto6:"./assets/logos/ms-reverse.png",
+        foto7:"./assets/logos/oracle-reverse.png",
+        foto8:"./assets/logos/vmware.png",
       }
     };
   },
@@ -88,7 +88,7 @@ export default {
 </script>
 <style >
 .fondodocumentos{
-  background-image: url("/src/assets/escuela/documentos.jpg");
+  background-image: url("./assets/escuela/documentos.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;

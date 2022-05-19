@@ -110,7 +110,7 @@ export default {
     width: 1em;
     margin-right: 0.5em;
     background-repeat: no-repeat;
-    background-image: url(/src/assets/svg/circle-tenue.svg);
+    background-image: url(./assets/svg/circle-tenue.svg);
     background-size: contain;
 }
 .titulolista{

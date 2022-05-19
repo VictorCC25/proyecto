@@ -13,7 +13,7 @@ const activeIndex = ref("1");
 <style>
 
 .fondo {
-  background-image: url("/src/assets/fondos/fondo3.jpg");
+  background-image: url("./assets/fondos/fondo3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;

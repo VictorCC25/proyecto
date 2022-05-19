@@ -56,7 +56,7 @@ export default {
           "El ciclo permite conseguir las capacidades y habilidades que se requieren a un técnico superior en administración de sistemas, redes y tecnologías relacionadas con Internet",
         Texto3:
           "Se recorren, durante los dos años de duración del ciclo, el funcionamiento de las redes, tanto locales como de área global (especialmente Internet), el diseño, manejo y administración de sistemas de bases de datos, la administración de sistemas operativos de servidor, virtualización de sistemas, desarrollo e implementación de aplicaciones web, seguridad de sistemas, gestión y administración de servicios de red, etc.",
-        img: "/src/assets/ciclos/asir01.jpg",
+        img: "./assets/ciclos/asir01.jpg",
         alt: "ASIR",
       },
       fila: {
@@ -85,10 +85,10 @@ export default {
         ],
       },
       fotos: [
-        { img: "/src/assets/ciclos/asir/asir01.jpg", alt: "ASIR1" },
-        { img: "/src/assets/ciclos/asir/asir02.jpg", alt: "ASIR2" },
-        { img: "/src/assets/ciclos/asir/asir03.jpg", alt: "ASIR3" },
-        { img: "/src/assets/ciclos/asir/asir04.jpg", alt: "ASIR4" },
+        { img: "./assets/ciclos/asir/asir01.jpg", alt: "ASIR1" },
+        { img: "./assets/ciclos/asir/asir02.jpg", alt: "ASIR2" },
+        { img: "./assets/ciclos/asir/asir03.jpg", alt: "ASIR3" },
+        { img: "./assets/ciclos/asir/asir04.jpg", alt: "ASIR4" },
       ],
       listas1: [
         { Texto: "Título de Bachillerato" },
@@ -139,45 +139,45 @@ export default {
       ],
       redes: [
         {
-          img: "/src/assets/iconos/facebook.svg",
+          img: "./assets/iconos/facebook.svg",
           alt: "Facebook",
           class: "Facebook",
           link: "https://www.facebook.com/people/Salesianos-Villamuriel-Palencia/100057348163856/",
         },
         {
-          img: "/src/assets/iconos/twitter.svg",
+          img: "./assets/iconos/twitter.svg",
           alt: "Twitter",
           class: "Twitter",
           link: "https://twitter.com/centrodonbosco",
         },
         {
-          img: "/src/assets/iconos/flickr.svg",
+          img: "./assets/iconos/flickr.svg",
           alt: "Flickr",
           class: "Flickr",
           link: "https://www.flickr.com/photos/58942531@N04/",
         },
         {
-          img: "/src/assets/iconos/instagram.svg",
+          img: "./assets/iconos/instagram.svg",
           alt: "Instagram",
           class: "Instagram",
           link: "https://www.instagram.com/salesianosvillamuriel/",
         },
         {
-          img: "/src/assets/iconos/youtube.svg",
+          img: "./assets/iconos/youtube.svg",
           alt: "YouTube",
           class: "YouTube",
           link: "https://www.youtube.com/user/donboscovillamuriel",
         },
       ],
       fotosf:{
-        foto1:"/src/assets/mapa.jpg",
-        foto2:"/src/assets/logos/tic5.png",
-        foto3:"/src/assets/logos/excelencia-marco.svg",
-        foto4:"/src/assets/logos/calidad.png",
-        foto5:"/src/assets/logos/cisco.png",
-        foto6:"/src/assets/logos/ms-reverse.png",
-        foto7:"/src/assets/logos/oracle-reverse.png",
-        foto8:"/src/assets/logos/vmware.png",
+        foto1:"./assets/mapa.jpg",
+        foto2:"./assets/logos/tic5.png",
+        foto3:"./assets/logos/excelencia-marco.svg",
+        foto4:"./assets/logos/calidad.png",
+        foto5:"./assets/logos/cisco.png",
+        foto6:"./assets/logos/ms-reverse.png",
+        foto7:"./assets/logos/oracle-reverse.png",
+        foto8:"./assets/logos/vmware.png",
       }
     };
   },
@@ -190,7 +190,7 @@ export default {
 Modulost>
 <style>
 .fondoasir {
-  background-image: url("/src/assets/ciclos/fondo-asir.jpg");
+  background-image: url("./assets/ciclos/fondo-asir.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;

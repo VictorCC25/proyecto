@@ -57,7 +57,7 @@ export default {
       noticias: [
         {
           Titulo: "Periodo de admisiones ESO",
-          img: "/src/assets/admisiones-ESO.jpeg",
+          img: "./assets/noticias/2022/03/admisiones-ESO.jpeg",
           alt: "Admisiones ESO",
           Texto:
             "Abierto el periodo de admisiones para la ESO. Del 18 de marzo al 6 de abril, en la Secretaría del Centro Don Bosoc de 9:30h a 13:30h. Teléfono: 979 77 72 70",
@@ -65,7 +65,7 @@ export default {
         },
         {
           Titulo: "Centro de Excelencia Profesional",
-          img: "/src/assets/noticias/2022/03/video-excelencia.jpg",
+          img: "./assets/noticias/2022/03/video-excelencia.jpg",
           alt: "Centro Excelencia",
           Texto:
             "Vídeo que explica nuestras bases, fortalezas y valores educativos",
@@ -73,7 +73,7 @@ export default {
         },
         {
           Titulo: "Jornada de Puertas abiertas para ESO",
-          img: "/src/assets/noticias/2022/03/puertas-abiertas.jpg",
+          img: "./assets/noticias/2022/03/puertas-abiertas.jpg",
           alt: "Puertas abiertas",
           Texto:
             "Ven a conocernos. El jueves 10 de marzo tenemos la jornada de puertas abiertas",
@@ -81,7 +81,7 @@ export default {
         },
         {
           Titulo: "Listado definitivo de candidatos en FP Dual",
-          img: "/src/assets/noticias/2021/12/listado-definitivo.jpg",
+          img: "./assets/noticias/2021/12/listado-definitivo.jpg",
           alt: "Listado FP Dual",
           Texto:
             "Documentos con el listado provisional de alumnos candidatos a la FP Dual",
@@ -89,7 +89,7 @@ export default {
         },
         {
           Titulo: "Listado de empresas de la FP Dual",
-          img: "/src/assets/noticias/2021/11/listado-fpdual-blur.jpg",
+          img: "./assets/noticias/2021/11/listado-fpdual-blur.jpg",
           alt: "Listado Empresas",
           Texto:
             "Documento con el listado de empresas colaboradoras de FP Dual para este curso 2021/22.",
@@ -97,7 +97,7 @@ export default {
         },
         {
           Titulo: "Información de ayuda para la FP Dual",
-          img: "/src/assets/noticias/2021/10/info-fpdual-blur.jpg",
+          img: "./assets/noticias/2021/10/info-fpdual-blur.jpg",
           alt: "Info FP Dual",
           Texto:
             "Documento con toda la información sobre la FP Dual para el curso 2021/22",
@@ -105,7 +105,7 @@ export default {
         },
         {
           Titulo: "Inicio de curso 2021/22",
-          img: "/src/assets/noticias/2021/09/inicio-curso-blur.jpg",
+          img: "./assets/noticias/2021/09/inicio-curso-blur.jpg",
           alt: "Inicio Curso",
           Texto:
             "Documento con la bienvenida del nuevo curso e instrucciones fundamentales a tener en cuenta por el alumnado y las familias.",
@@ -114,7 +114,7 @@ export default {
         {
           Titulo:
             "Nuevo plazo de admisión en Ciclos de FP: del 07 al 10 de Septiembre",
-          img: "/src/assets/noticias/2021/06/fp-online.jpg",
+          img: "./assets/noticias/2021/06/fp-online.jpg",
           alt: "Formulario de matrícula",
           Texto:
             "Instrucciones para la admisión en FP en el Centro Salesiano Don Bosco para el curso 2021/22.",
@@ -122,7 +122,7 @@ export default {
         },
         {
           Titulo: "Vídeo: La evaluación como instrumento de aprendizaje",
-          img: "/src/assets/noticias/2021/06/evaluacion.jpg",
+          img: "./assets/noticias/2021/06/evaluacion.jpg",
           alt: "Formulario de matrícula",
           Texto:
             "Explicamos las estrategias que utilizamos en la evaluación para hacer de ella un ingregiente en favor de la excelencia educativa.",
@@ -130,7 +130,7 @@ export default {
         },
         {
           Titulo: "Vídeo: FP Dual en Telecomunicaciones e Informática",
-          img: "/src/assets/noticias/2021/06/fp-dual-video.jpg",
+          img: "./assets/noticias/2021/06/fp-dual-video.jpg",
           alt: "Vídeo FP Dual",
           Texto:
             "Los alumnos de Telecomunicaciones comentan su experiencia cursando la FP Dual",
@@ -142,24 +142,24 @@ export default {
           Texto11: "Eliminamos la barrera profesor/alumnos",
           Texto12: "Nos adelantamos a los problemas",
           Texto13: "Siempre estamos disponibles",
-          img1: "/src/assets/index/cercanos.jpg",
+          img1: "./assets/index/cercanos.jpg",
           alt1: "Cercanos",
           Texto21: "Somos un equipo ilusionado",
           Texto22: "Rebosantes de entusiasmo",
           Texto23: "Creemos en lo que hacemos",
-          img2: "/src/assets/index/motivados.jpg",
+          img2: "./assets/index/motivados.jpg",
           alt2: "Motivados",
         },
         {
           Texto11: "Aplicamos metodologías activas",
           Texto12: "Usamos la tecnología en nuestro provecho",
           Texto13: "Aplicamos las mejores técnicas de enseñanza",
-          img1: "/src/assets/index/innovadores.jpg",
+          img1: "./assets/index/innovadores.jpg",
           alt1: "Innovadores",
           Texto21: "Creemos en lo que hacemos",
           Texto22: "Comprometidos a todos los niveles",
           Texto23: "Educamos en valores",
-          img2: "/src/assets/index/implicados.jpg",
+          img2: "./assets/index/implicados.jpg",
           alt2: "Implicados",
         },
       ],
@@ -167,42 +167,42 @@ export default {
         {
           Texto: "Educación secundaria obligatoria",
           Titulo: "ESO",
-          img: "/src/assets/oferta/info/eso.jpg",
+          img: "./assets/oferta/info/eso.jpg",
           alt: "ESO",
           route: "/estudios/eso",
         },
         {
           Texto: "Mantenimiento de vehículos",
           Titulo: "FP Básica",
-          img: "/src/assets/oferta/info/fpb.jpg",
+          img: "./assets/oferta/info/fpb.jpg",
           alt: "FP",
           route: "/estudios/mantenimiento",
         },
         {
           Texto: "Electromecanica",
           Titulo: "FP Grado Medio",
-          img: "/src/assets/oferta/info/electromecanica.jpg",
+          img: "./assets/oferta/info/electromecanica.jpg",
           alt: "Electromecanica",
           route: "/estudios/electromecanica",
         },
         {
           Texto: "Carrocería",
           Titulo: "FP Grado Medio",
-          img: "/src/assets/oferta/info/carroceria.jpg",
+          img: "./assets/oferta/info/carroceria.jpg",
           alt: "Carrocería",
           route: "/estudios/carroceria",
         },
         {
           Texto: "Telecomunicaciones",
           Titulo: "FP Grado Medio",
-          img: "/src/assets/oferta/info/teleco.jpg",
+          img: "./assets/oferta/info/teleco.jpg",
           alt: "Telecomunicaciones",
           route: "/estudios/telecomunicaciones",
         },
         {
           Texto: "Administración de Sistemas Informáticos en red",
           Titulo: "FP Grado Superior",
-          img: "/src/assets/oferta/info/asir.jpg",
+          img: "./assets/oferta/info/asir.jpg",
           alt: "ASIR",
           route: "/estudios/asir",
         },
@@ -210,93 +210,93 @@ export default {
       servicios: [
         {
           Titulo: "PLATAFORMA EDUCAMOS",
-          img: "/src/assets/logos/educamos.png",
+          img: "./assets/logos/educamos.png",
           link: "https://sso2.educamos.com/Autenticacion/Acceder?ReturnUrl=%2fissue%2fwsfed%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fdonbosco-salesianos-villamurieldecerrato.educamos.com%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252f%26wct%3d2017-03-16T07%253a36%253a30Z&wa=wsignin1.0&wtrealm=https%3a%2f%2fdonbosco-salesianos-villamurieldecerrato.educamos.com%2f&wctx=rm%3d0%26id%3dpassive%26ru%3d%252f&wct=2017-03-16T07%3a36%3a30Z",
         },
         {
           Titulo: "GOOGLE CLASSROOM",
-          img: "/src/assets/logos/google-classroom.svg",
+          img: "./assets/logos/google-classroom.svg",
           link: "https://accounts.google.com/signin/v2/identifier?service=classroom&passive=1209600&continue=https%3A%2F%2Fclassroom.google.com%2F%3Femr%3D0&followup=https%3A%2F%2Fclassroom.google.com%2F%3Femr%3D0&flowName=GlifWebSignIn&flowEntry=ServiceLogin",
         },
         {
           Titulo: "MICROFOST TEAMS",
-          img: "/src/assets/logos/teams.svg",
+          img: "./assets/logos/teams.svg",
           link: "https://teams.microsoft.com/_",
         },
         {
           Titulo: "MICROSOFT OFFICE 365",
-          img: "/src/assets/logos/office.svg",
+          img: "./assets/logos/office.svg",
           link: "https://www.office.com/login?es=Click&ru=%2F",
         },
         {
           Titulo: "AGENCIA DE COLOCACIÓN",
-          img: "/src/assets/logos/casita.svg",
+          img: "./assets/logos/casita.svg",
           link: "http://salesianosvillamuriel.redagenciadecolocacion.com/",
         },
       ],
       meritos: [
         {
           Titulo1: "TIC 5",
-          img1: "/src/assets/logos/tic5.png",
+          img1: "./assets/logos/tic5.png",
           alt1: "TIC 5",
           link1: "/centro/tic-5",
           Titulo2: "ERASMUS PLUS",
-          img2: "/src/assets/logos/erasmus-plus.png",
+          img2: "./assets/logos/erasmus-plus.png",
           alt2: "ERASMUS PLUS",
           link2: "/centro/erasmus-plus",
         },
         {
           Titulo1: "FP DUAL",
-          img1: "/src/assets/logos/dual.svg",
+          img1: "./assets/logos/dual.svg",
           alt1: "FP DUAL",
           link1: "/centro/fpdual",
           Titulo2: "CENTRO DE EXCELENCIA DE ALTO NIVEL",
-          img2: "/src/assets/logos/excelencia.svg",
+          img2: "./assets/logos/excelencia.svg",
           alt2: "Centro de Excelencia",
           link2: "/centro/excelencia",
         },
       ],
       redes: [
         {
-          img: "/src/assets/iconos/facebook.svg",
+          img: "./assets/iconos/facebook.svg",
           alt: "Facebook",
           class: "Facebook",
           link: "https://www.facebook.com/people/Salesianos-Villamuriel-Palencia/100057348163856/",
         },
         {
-          img: "/src/assets/iconos/twitter.svg",
+          img: "./assets/iconos/twitter.svg",
           alt: "Twitter",
           class: "Twitter",
           link: "https://twitter.com/centrodonbosco",
         },
         {
-          img: "/src/assets/iconos/flickr.svg",
+          img: "./assets/iconos/flickr.svg",
           alt: "Flickr",
           class: "Flickr",
           link: "https://www.flickr.com/photos/58942531@N04/",
         },
         {
-          img: "/src/assets/iconos/instagram.svg",
+          img: "./assets/iconos/instagram.svg",
           alt: "Instagram",
           class: "Instagram",
           link: "https://www.instagram.com/salesianosvillamuriel/",
         },
         {
-          img: "/src/assets/iconos/youtube.svg",
+          img: "./assets/iconos/youtube.svg",
           alt: "YouTube",
           class: "YouTube",
           link: "https://www.youtube.com/user/donboscovillamuriel",
         },
       ],
       fotosf: {
-        foto1: "/src/assets/mapa.jpg",
-        foto2: "/src/assets/logos/tic5.png",
-        foto3: "/src/assets/logos/excelencia-marco.svg",
-        foto4: "/src/assets/logos/calidad.png",
-        foto5: "/src/assets/logos/cisco.png",
-        foto6: "/src/assets/logos/ms-reverse.png",
-        foto7: "/src/assets/logos/oracle-reverse.png",
-        foto8: "/src/assets/logos/vmware.png",
+        foto1: "./assets/mapa.jpg",
+        foto2: "./assets/logos/tic5.png",
+        foto3: "./assets/logos/excelencia-marco.svg",
+        foto4: "./assets/logos/calidad.png",
+        foto5: "./assets/logos/cisco.png",
+        foto6: "./assets/logos/ms-reverse.png",
+        foto7: "./assets/logos/oracle-reverse.png",
+        foto8: "./assets/logos/vmware.png",
       },
     };
   },

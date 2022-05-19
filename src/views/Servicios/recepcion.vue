@@ -37,30 +37,30 @@ export default {
           "Si quieres enviarnos tu currículo, puedes acceder a esta herramienta desde el siguiente enlace: ",
         Texto4:"Formulario de Bolsa de empleo, Inspectoría Salesiana Santiago el Mayor",
         link:"https://forms.gle/Bt6nvG97gxPiX9j48",
-        img: "/src/assets/escuela/CV_salesianos_02.png",
+        img: "./assets/escuela/CV_salesianos_02.png",
         alt: "Telecomunicaciones",
       },
       redes: [
-        { img: "/src/assets/iconos/facebook.svg", alt: "Facebook" ,class:"Facebook",
+        { img: "./assets/iconos/facebook.svg", alt: "Facebook" ,class:"Facebook",
         link:"https://www.facebook.com/people/Salesianos-Villamuriel-Palencia/100057348163856/"},
-        { img: "/src/assets/iconos/twitter.svg", alt: "Twitter" , class:"Twitter",
+        { img: "./assets/iconos/twitter.svg", alt: "Twitter" , class:"Twitter",
         link:"https://twitter.com/centrodonbosco"},
-        { img: "/src/assets/iconos/flickr.svg", alt: "Flickr", class:"Flickr",
+        { img: "./assets/iconos/flickr.svg", alt: "Flickr", class:"Flickr",
         link:"https://www.flickr.com/photos/58942531@N04/"},
-        { img: "/src/assets/iconos/instagram.svg", alt: "Instagram", class:"Instagram",
+        { img: "./assets/iconos/instagram.svg", alt: "Instagram", class:"Instagram",
         link:"https://www.instagram.com/salesianosvillamuriel/"},
-        { img: "/src/assets/iconos/youtube.svg", alt: "YouTube", class:"YouTube",
+        { img: "./assets/iconos/youtube.svg", alt: "YouTube", class:"YouTube",
         link:"https://www.youtube.com/user/donboscovillamuriel"},
       ],
       fotosf:{
-        foto1:"/src/assets/mapa.jpg",
-        foto2:"/src/assets/logos/tic5.png",
-        foto3:"/src/assets/logos/excelencia-marco.svg",
-        foto4:"/src/assets/logos/calidad.png",
-        foto5:"/src/assets/logos/cisco.png",
-        foto6:"/src/assets/logos/ms-reverse.png",
-        foto7:"/src/assets/logos/oracle-reverse.png",
-        foto8:"/src/assets/logos/vmware.png",
+        foto1:"./assets/mapa.jpg",
+        foto2:"./assets/logos/tic5.png",
+        foto3:"./assets/logos/excelencia-marco.svg",
+        foto4:"./assets/logos/calidad.png",
+        foto5:"./assets/logos/cisco.png",
+        foto6:"./assets/logos/ms-reverse.png",
+        foto7:"./assets/logos/oracle-reverse.png",
+        foto8:"./assets/logos/vmware.png",
       }
     };
   },
@@ -73,7 +73,7 @@ export default {
     Modulost>
 <style>
 .fondorecepcion{
-  background-image: url("/src/assets/fondos/paper.jpg");
+  background-image: url("./assets/fondos/paper.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;

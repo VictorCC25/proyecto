@@ -5,7 +5,7 @@
         <img
           alt="Logo del centro"
           class="logo"
-          src="/src/assets/logos/logo-grande.svg"
+          src="/assets/logos/logo-grande.svg"
         />
       </router-link>
     </div>
