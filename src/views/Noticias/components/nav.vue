@@ -10,7 +10,7 @@
       </router-link>
     </div>
     <div class="navigation-menu">
-      <el-menu :default-active="activeIndex" mode="horizontal">
+      <el-menu :default-active="activeIndex" mode="horizontal" :ellipsis="false">
         <el-sub-menu index="1">
           <template #title>ESTUDIOS</template>
           <el-sub-menu index="1-1">
