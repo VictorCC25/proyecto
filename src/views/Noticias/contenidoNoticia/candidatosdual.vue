@@ -92,7 +92,7 @@ export default {
         Texto1:"Documento con el listado de alumnos candidatos a la FP Dual por especiales. Aparece la nota de baremación del proceso de selección",
         Texto2:"",
         Texto3:"",
-        Texto4:"Documento con el listado definitivo de candidatos y la baremación final",
+        Texto4:"Documento con el listado definitivo de candidatos",
         link:"https://drive.google.com/file/d/1Pt6_FsWuU-CTIVfFGUbw-TxYrdvvaMMg/view?usp=sharing",
       },
     };

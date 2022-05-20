@@ -1,7 +1,7 @@
 <template>
   <div class="fila2">
     <el-link class="servicio" v-for="(servicio, id) in servicios" :key="id"
-    v-bind:href="servicio.link">
+    v-bind:href="servicio.link" type="info">
       <div>
         <img v-bind:src="servicio.img" v-bind:alt="servicio.alt" />
         <p class="serviciotexto">
@@ -28,6 +28,9 @@ export default {
 .servicio img {
   width: 80px;
   margin-top: 10px;
+}
+.fila2 > a{
+  color: black;
 }
 
 .servicio {

@@ -4,8 +4,7 @@
     <h1>Nuestro método educativo</h1>
   </div>
   <div
-    class="sticky"
-    style="background-image: url('/src/assets/escuela/proyecto1.jpg')"
+    class="sticky fondo1"
   ></div>
   <div class="titulosticky">
     <h2>Aprendizaje basado en proyectos</h2>
@@ -18,8 +17,7 @@
     <p>Las metodologías activas son la base de nuestra trabajo educativo</p>
   </div>
   <div
-    class="sticky"
-    style="background-image: url('/src/assets/escuela/1a1.jpg')"
+    class="sticky fondo2"
   ></div>
   <div class="titulosticky">
     <h2>Somos un centro muy TIC</h2>
@@ -35,8 +33,7 @@
     </p>
   </div>
   <div
-    class="sticky"
-    style="background-image: url('/src/assets/escuela/lazo.jpeg')"
+    class="sticky fondo3"
   ></div>
   <div class="titulosticky">
     <h2>Educamos en valores</h2>
@@ -52,8 +49,7 @@
     </p>
   </div>
   <div
-    class="sticky"
-    style="background-image: url('/src/assets/escuela/familias.jpg')"
+    class="sticky fondo4"
   ></div>
   <div class="titulosticky">
     <h2>Trabajamos con las familias</h2>
@@ -68,8 +64,7 @@
     </p>
   </div>
   <div
-    class="sticky"
-    style="background-image: url('/src/assets/escuela/como-casa.jpg')"
+    class="sticky fondo5"
   ></div>
   <div class="titulosticky">
     <h2>Orgullosos de nuestra identidad</h2>
@@ -212,5 +207,25 @@ export default {
   margin: 0 4em 1em 10%;
   font-style: italic;
   background-color: rgba(81, 98, 111, 0.5);
+}
+
+.fondo1{
+  background-image: url('/src/assets/escuela/proyecto1.jpg')
+}
+
+.fondo2{
+  background-image: url('/src/assets/escuela/1a1.jpg')
+}
+
+.fondo3{
+ background-image: url('/src/assets/escuela/lazo.jpeg')
+}
+
+.fondo4{
+  background-image: url('/src/assets/escuela/familias.jpg')
+}
+
+.fondo5{
+  background-image: url('/src/assets/escuela/como-casa.jpg')
 }
 </style>

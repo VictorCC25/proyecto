@@ -5,7 +5,7 @@
         <p>{{ contenido.Texto1 }}</p>
         <p>{{ contenido.Texto2 }}</p>
         <p>{{ contenido.Texto3 }}</p>
-        <p><el-link v-bind:href="contenido.link" type="primary">{{ contenido.Texto4 }}</el-link></p>
+        <p><el-link v-bind:href="contenido.link" type="danger">{{ contenido.Texto4 }}</el-link></p>
       </div>
     </div>
     <div class="derecha">

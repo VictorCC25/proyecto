@@ -56,7 +56,6 @@
           <template #title>CENTRO</template>
           <el-sub-menu index="2-1">
             <template #title>SECRETARíA</template>
-            <!-- <el-link href="https://view.genial.ly/604f2b63d1a43d0d17b3820e"><el-menu-item index="2-1-1">INFORMACIÓN SOBRE MATRICULACIÓN</el-menu-item></el-link> -->
             <router-link to="/centro/matriculacionESO"
               ><el-menu-item index="2-1-1"
                 >INFORMACIÓN SOBRE MATRICULACIÓN</el-menu-item
@@ -121,24 +120,24 @@
             <el-menu-item index="3-1-1">
               <el-link
                 href="https://sso2.educamos.com/Autenticacion/Acceder?ReturnUrl=%2fissue%2fwsfed%3fwa%3dwsignin1.0%26wtrealm%3dhttps%253a%252f%252fdonbosco-salesianos-villamurieldecerrato.educamos.com%252f%26wctx%3drm%253d0%2526id%253dpassive%2526ru%253d%25252f%26wct%3d2017-03-16T07%253a36%253a30Z&wa=wsignin1.0&wtrealm=https%3a%2f%2fdonbosco-salesianos-villamurieldecerrato.educamos.com%2f&wctx=rm%3d0%26id%3dpassive%26ru%3d%252f&wct=2017-03-16T07%3a36%3a30Z"
-              >
+              class="linknav">
                 EDUCAMOS</el-link
               >
             </el-menu-item>
             <el-menu-item index="3-1-2">
               <el-link
                 href="https://accounts.google.com/signin/v2/identifier?service=classroom&passive=1209600&continue=https%3A%2F%2Fclassroom.google.com%2F%3Femr%3D0&followup=https%3A%2F%2Fclassroom.google.com%2F%3Femr%3D0&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
-              >
+              class="linknav">
                 GOOGLE CLASSROOM</el-link
               >
             </el-menu-item>
             <el-menu-item index="3-1-3">
-              <el-link href="https://teams.microsoft.com/_">
+              <el-link href="https://teams.microsoft.com/_" class="linknav">
                 MICROSOFT OFFICE 365</el-link
               >
             </el-menu-item>
             <el-menu-item index="3-1-4">
-              <el-link href="https://www.office.com/login?es=Click&ru=%2F">
+              <el-link href="https://www.office.com/login?es=Click&ru=%2F" class="linknav">
                 MICROSOFT TEAMS</el-link
               >
             </el-menu-item>
@@ -148,13 +147,13 @@
             <el-menu-item index="3-2-1">
               <el-link
                 href="https://docs.google.com/forms/d/e/1FAIpQLSdUXOK-3Jdzzq0KaF2su2i-6E8nhK4b68k0tqSceIiw38x1_g/viewform"
-                >SUGERENCIAS</el-link
+                class="linknav">SUGERENCIAS</el-link
               >
             </el-menu-item>
             <el-menu-item index="3-2-2">
               <el-link
                 href="http://salesianosvillamuriel.redagenciadecolocacion.com/"
-                >AGENCIAS DE COLOCACIÓN</el-link
+                class="linknav">AGENCIAS DE COLOCACIÓN</el-link
               >
             </el-menu-item>
             <router-link to="/servicios/curriculos"
@@ -171,3 +170,15 @@
     </div>
   </el-header>
 </template>
+
+<style>
+.linknav{
+  color: black;
+}
+.linknav:visited{
+  color: black;
+}
+.linknav:hover{
+  color: #409eff;
+}
+</style>

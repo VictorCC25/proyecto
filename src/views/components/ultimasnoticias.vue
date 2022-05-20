@@ -23,6 +23,17 @@ export default {
 .div-noticias{
   padding-left: 1em;
 }
+a{
+  color: #999;
+}
+a:visited{
+  color: #999;
+}
+
+.div-noticias > a:hover{
+  color: #fff;
+}
+
 .texto-inicial h1 {
   font-weight: 300;
   font-size: 3em;

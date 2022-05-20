@@ -3,7 +3,7 @@
     <p>{{ contenido.texto1 }}</p>
     <p>{{ contenido.texto2 }}</p>
     <p>{{ contenido.texto3 }}</p>
-    <p><el-link v-bind:href="contenido.link">{{ contenido.texto4 }}</el-link></p>
+    <p><el-link v-bind:href="contenido.link" type="danger">{{ contenido.texto4 }}</el-link></p>
   </div>
 </template>
 <script>

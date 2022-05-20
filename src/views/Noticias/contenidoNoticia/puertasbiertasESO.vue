@@ -18,7 +18,7 @@
       </p>
       <p>Apostamos por el aprendizaje individualizado y adaptado a las necesidades de cada alumno, lo que permite alcanzar los máximos niveles de aprendizaje.</p>
       <p>Somos un centro con proyección profesional. Nuestra oferta educativa ofrece Ciclos formativos de grado medio y superior y FPB. Contamos con programas <router-link to="/centro/erasmus-plus"> Erasmus+ </router-link> y <router-link to="/centro/fpdual"> FP Dual </router-link> y poseemos reconocimiento como <router-link to="/centro/excelencia"> Centro de excelencia profesional de alto nivel . </router-link></p>
-      <p>Si quieres saber más puedes descargar nuestro <el-link href="https://www.centrodonbosco.es/docs/Folleto-ESO.pdf"> folleto informativo </el-link></p>
+      <p>Si quieres saber más puedes descargar nuestro <el-link href="https://www.centrodonbosco.es/docs/Folleto-ESO.pdf" type="info"> folleto informativo </el-link></p>
       <section class="video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/cHdEr7stxIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/g0BcBoIaFAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -129,5 +129,8 @@ export default {
 }
 .video{
   text-align: center;
+}
+.texto1 > p > a:hover{
+  color: #fff;
 }
 </style>

@@ -6,11 +6,11 @@
         Pasaje Don Bosco 1,<br />
         34190, Villamuriel de Cerrato <br />
         Tlfno:
-        <el-link href="tel:979777270" class="linkform"> 979 77 72 70 </el-link
+        <el-link href="tel:979777270" class="linkform" type="danger"> 979 77 72 70 </el-link
         ><br />
         <el-link
           href="mailto:direccioncolegio@salesianosvillamuriel.com"
-          class="linkform"
+          class="linkform" type="danger"
         >
           direccioncolegio@salesianosvillamuriel.com </el-link
         ><br /><br />
@@ -110,7 +110,7 @@ export default {
 }
 .columna > h3 {
   margin-top: 0.5em;
-  font-family: decima_nova_proregular, sans-serif;
+  font-family: sans-serif;
   font-size: 1.5em;
   color: #fff;
   text-align: left;
@@ -124,6 +124,9 @@ label {
   color: #dad4cb;
   border-bottom: 1px solid #d9d9d9;
   padding-bottom: 1em;
+}
+.borde > a:hover{
+  color: #fff
 }
 .linkform {
   color: #fff;
@@ -157,7 +160,7 @@ input[type=submit]{
   cursor: pointer;
 }
 input[type=submit]:hover{
-  background-color: darkblue;
+  background-color: #484ca2;
 }
 .filalogos {
   position: relative;

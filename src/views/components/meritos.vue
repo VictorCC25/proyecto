@@ -38,10 +38,15 @@ export default {
   width: 49%;
   border: #516260 solid 1px;
   border-radius: 5px;
+  color: black;
+}
+.merito:visited{
+  color: black;
 }
 
 .merito:hover{
   background-color: rgba(255, 255, 255, 1);
+  color:  #999;
 }
 
 .meritoimg{

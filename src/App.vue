@@ -49,6 +49,7 @@ const activeIndex = ref("1");
 }
 a{
   text-decoration: none;
+  color: white;
 }
 a:visited{
   color: #516260;
