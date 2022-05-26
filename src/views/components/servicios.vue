@@ -44,4 +44,9 @@ export default {
 .servicio:hover {
   background-color: rgba(255, 255, 255, 1);
 }
+@media screen and (max-width: 375px) {
+  .serviciotexto{
+    font-size: .80em;
+  }
+}
 </style>

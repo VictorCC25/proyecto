@@ -12,14 +12,23 @@ export default{
 <style>
 .contenidofd{
     padding: 0 4.5em;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
 }
+
 .normal{
-    height: 120px;
+    height: 110px;
 }
 .salesiano{
-    height: 80px;
+    height: 70px;
 }
 .europa{
-    height: 80px;
+    height: 70px;
+}
+@media screen and (max-width: 1024px){
+  .contenidofd{
+    display: none;
+  }
 }
 </style>

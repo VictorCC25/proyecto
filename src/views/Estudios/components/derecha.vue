@@ -30,7 +30,6 @@ export default {
     font-size: 2em;
     color: #2e2e2e;
     text-align: center;
-    margin: 0;
 }
 .izquierdacontenido>p{
     font-size: 1.3em;
@@ -38,13 +37,21 @@ export default {
     font-weight: 300;
 }
 .derechafoto {
+  text-align: center;
   width: 100%;
   margin: 0 auto;
   padding: 1em 1.7em 1em 0em;
 }
-
 .derechafoto>img{
   width: 100%;
 }
+@media screen and (max-width: 1024px){
+  .derechafoto{
+    width: 85%;
+  }
+  .derechafoto>img{
+    width: 60%;
+  }
 
+}
 </style>

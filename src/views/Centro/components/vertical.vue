@@ -22,6 +22,7 @@ export default {
 <style>
 .filavertical {
   display: flex;
+  flex-wrap: wrap;
 }
 .columnavertical {
     width: 50%;;
@@ -43,5 +44,10 @@ export default {
 .textovertical>p{
     font-weight: 400;
     font-size: 1.4em;
+}
+@media screen and (max-width: 768px){
+  .columnavertical{
+    width: 100%;
+  }
 }
 </style>

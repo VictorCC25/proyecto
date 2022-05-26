@@ -166,7 +166,7 @@ input[type=submit]:hover{
   position: relative;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -183,5 +183,8 @@ input[type=submit]:hover{
 }
 .logocorto {
   height: 30px;
+}
+@media screen and (max-width: 768px) {
+  
 }
 </style>

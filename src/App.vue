@@ -55,4 +55,9 @@ a:visited{
   color: #516260;
 }
 
+@media screen and (max-width: 375px){
+  .header{
+    height: 80px;
+  }
+}
 </style>

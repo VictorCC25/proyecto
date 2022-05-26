@@ -1,5 +1,5 @@
 <template>
-  <h1>{{ fila.Titulo }}</h1>
+  <h1 class="filah1">{{ fila.Titulo }}</h1>
   <div class="filaiconos">
     <div class="cajaicono" v-for="(foto, id) in fila.fotos" :key="id">
       <svg width="80" height="80" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" fill="#dc9869">
@@ -21,7 +21,7 @@ export default {
   text-align: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 100%;
+  width: 92%;
   padding: 1em;
   color: #fff;
   max-width: 1200px;
@@ -35,5 +35,23 @@ export default {
     border-radius: 0.5em;
     fill: #dc9869;
     margin: 0 0 1em;
+}
+.filah1 {
+  margin: 1.5em 0;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 4em;
+  color: #fff;
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  .filaiconos{
+    width: 90%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .filah1{
+    font-size: 2em;
+  }
 }
 </style>

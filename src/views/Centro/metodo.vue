@@ -207,6 +207,7 @@ export default {
   margin: 0 4em 1em 10%;
   font-style: italic;
   background-color: rgba(81, 98, 111, 0.5);
+  padding-right: 10px;
 }
 
 .fondo1{

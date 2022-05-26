@@ -17,6 +17,7 @@
       <lista :listas1="listas1" :listas2="listas2" :listas3="listas3" />
     </div>
     <div>
+      <br>
       <fotos :fotos="fotos" />
     </div>
     <div class="lista1">

@@ -121,4 +121,12 @@ export default {
     font-size: 4em;
     text-align: center;
 }
+@media screen and (max-width: 768px){
+  .contenidolista{
+      width: 98%;
+  }
+  .titulolista{
+    font-size: 2em;
+}
+}
 </style>

@@ -36,4 +36,12 @@ export default {
 .contenidomodulos {
   width: 50%;
 }
+@media screen and (max-width: 768px){
+  .contenidomodulos{
+      width: 98%;
+  }
+  .titulolista{
+    font-size: 2em;
+}
+}
 </style>

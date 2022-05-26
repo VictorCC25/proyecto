@@ -37,14 +37,5 @@ export default {
     color: #000;
     font-weight: 300;
 }
-.derechafoto {
-  width: 100%;
-  margin: 0 auto;
-  padding: 1em 1.7em 1em 0em;
-}
-
-.derechafoto>img{
-  width: 100%;
-}
 
 </style>

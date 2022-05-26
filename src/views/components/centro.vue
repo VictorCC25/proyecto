@@ -29,3 +29,65 @@ export default {
   props: ["filas"],
 };
 </script>
+<style>
+.fila {
+  padding-top: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.fototexto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fototexto img {
+  width: 150px;
+  height: 150px;
+  margin: 30px;
+}
+
+.fila-texto-i {
+  text-align: right;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.fila-texto-d {
+  text-align: left;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.vermas {
+  margin: 20px;
+}
+
+.vermas > span {
+  text-align: center;
+  background-color: #51626f;
+  padding: 1em;
+  border-radius: 20px;
+  color: #fff;
+}
+@media screen and (max-width: 426px) {
+  .fila-texto-d{
+    text-align: center;
+  }
+  .fila-texto-i{
+    text-align: center;
+  }
+  .fototexto{
+    text-align: center;
+    width: 98%;
+    justify-content: space-around;
+  }
+  .vermas > span{
+    font-size: .65em;
+  }
+}
+</style>

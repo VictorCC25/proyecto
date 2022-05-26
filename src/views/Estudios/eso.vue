@@ -19,6 +19,7 @@
       <izquierda :contenido="contenido4" />
     </div>
     <div class="fotos">
+      <br>
       <fotos :fotos="fotos" />
     </div>
     <div class="redes">
@@ -221,12 +222,5 @@ export default {
   position: relative;
   background-color: rgb(217, 217, 217);
 }
-.zonasinfondo > h1 {
-  margin: 1.5em 0;
-  font-family: sans-serif;
-  font-weight: 300;
-  font-size: 4em;
-  color: #fff;
-  text-align: center;
-}
+
 </style>

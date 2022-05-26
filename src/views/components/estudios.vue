@@ -40,4 +40,9 @@ export default {
 .curso:hover{
   background-color: rgba(255, 255, 255, 1);
 }
+@media screen and (max-width: 425px) {
+  .curso {
+  width: 75% !important;
+  }
+}
 </style>

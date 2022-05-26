@@ -26,37 +26,49 @@ export default {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  justify-content: center;
 }
 .izquierda {
-  width: 49%;
+  width: 48%;
 }
 .derecha {
-  width: 49%;
+  width: 48%;
 }
 .izquierdafoto {
+  text-align: center;
   width: 100%;
   margin: 0 auto;
   padding: 1em 2em;
 }
-
-.izquierdafoto>img{
+.izquierdafoto > img {
   width: 100%;
 }
-
 .derechacontenido {
-  padding:0 3em;
+  padding: 0 3em;
   margin: auto;
 }
-.derechacontenido>h3{
-    font-size: 2em;
-    color: #2e2e2e;
-    text-align: center;
-    margin: 0;
+.derechacontenido > h3 {
+  font-size: 2em;
+  color: #2e2e2e;
+  text-align: center;
 }
-.derechacontenido>p{
-    font-size: 1.3em;
-    color: #000;
-    font-weight: 300;
+.derechacontenido > p {
+  font-size: 1.3em;
+  color: #000;
+  font-weight: 300;
 }
-
+@media screen and (max-width: 1024px) {
+  .izquierda {
+    width: 98%;
+  }
+  .derecha {
+    width: 98%;
+  }
+  .izquierdafoto {
+    width: 85%;
+  }
+  .izquierdafoto > img {
+    width: 60%;
+  }
+}
 </style>

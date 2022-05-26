@@ -380,34 +380,6 @@ body {
   height: 100vh;
 }
 
-.ult-noticias {
-  position: absolute;
-  top: 120px;
-  right: 2em;
-  padding: 0 0 1% 0;
-  color: #999;
-  border: 1px solid #fff;
-  font-size: 1em;
-  width: 33%;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.ult-noticias > h2 {
-  color: #516260;
-  background-color: white;
-  margin: 0;
-  text-align: center;
-}
-
-
-.texto-inicial {
-  position: absolute;
-  bottom: 4em;
-  left: 2em;
-  width: 100%;
-  color: white;
-}
-
 .noticias {
   position: relative;
   width: 100%;
@@ -455,49 +427,6 @@ body {
   color: #51626f;
 }
 
-.fila {
-  padding-top: 3%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.fototexto {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.fototexto img {
-  width: 150px;
-  height: 150px;
-  margin: 30px;
-}
-
-.fila-texto-i {
-  text-align: right;
-  font-size: 1em;
-  font-weight: 300;
-}
-
-.fila-texto-d {
-  text-align: left;
-  font-size: 1em;
-  font-weight: 300;
-}
-
-.vermas {
-  margin: 20px;
-}
-
-.vermas span {
-  text-align: center;
-  background-color: #51626f;
-  padding: 1em;
-  border-radius: 20px;
-  color: #fff;
-}
-
 .estudios {
   position: relative;
   width: 100%;
@@ -514,6 +443,7 @@ body {
   position: relative;
   background: rgb(217, 217, 217);
   display: flex;
+  flex-wrap: wrap;
   padding-bottom: 15px;
 }
 
@@ -522,12 +452,16 @@ body {
   font-weight: 300;
   font-size: 3em;
 }
-
-.fila2 {
-  padding-top: 3%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
+@media screen and (max-width: 769px) {
+  .meritos{
+    width: 98%;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .servicios{
+    width: 98%;
+    text-align: center;
+    flex-wrap: wrap;
+  }
 }
 </style>
