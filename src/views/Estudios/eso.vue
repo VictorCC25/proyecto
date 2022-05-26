@@ -223,4 +223,9 @@ export default {
   background-color: rgb(217, 217, 217);
 }
 
+@media screen and (max-width: 425px){
+  .titulo{
+    height: 40vh;
+  }
+}
 </style>

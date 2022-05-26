@@ -20,4 +20,12 @@ export default {
   font-weight: 700;
   font-size: 2em;
 }
+@media screen and (max-width: 425px){
+  .tituloposicion > h1{
+    font-size: 1em;
+  }
+  .tituloposicion > h2{
+    font-size: .75em;
+  }
+}
 </style>
