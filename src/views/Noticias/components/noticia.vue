@@ -75,10 +75,10 @@ export default {
 @media screen and (max-width: 425px) {
   .tarjetanoticia {
   display: inline-block;
-  width: 300px !important;
+  width: 280px !important;
 }
 .tarjetanoticia > figure {
-  width: 290px;
+  width: 280px;
 }
 }
 </style>
