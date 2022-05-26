@@ -6,11 +6,13 @@
         Pasaje Don Bosco 1,<br />
         34190, Villamuriel de Cerrato <br />
         Tlfno:
-        <el-link href="tel:979777270" class="linkform" type="danger"> 979 77 72 70 </el-link
+        <el-link href="tel:979777270" class="linkform" type="danger">
+          979 77 72 70 </el-link
         ><br />
         <el-link
           href="mailto:direccioncolegio@salesianosvillamuriel.com"
-          class="linkform" type="danger"
+          class="linkform"
+          type="danger"
         >
           direccioncolegio@salesianosvillamuriel.com </el-link
         ><br /><br />
@@ -32,14 +34,30 @@
           >(leer nuestra política de privacidad)</router-link
         >
       </p>
-      <div>
-      <form label-position="top" @submit.prevent="sendEmail">
-        <p><label>Email del remitente</label></p>
-        <p><input type="email" v-model="email" name="email" placeholder="Escriba su correo" required /></p>
-        <p><label>Texto de Consulta</label></p>
-        <p><textarea name="message" v-model="message" rows="9" placeholder="Escriba aquí su consulta" required /></p>
-        <input type="submit" value="Enviar">
-      </form>
+      <div class="contenedorform">
+        <form label-position="top" @submit.prevent="sendEmail">
+          <p><label>Email del remitente</label></p>
+          <p>
+            <input
+              type="email"
+              v-model="email"
+              name="email"
+              placeholder="Escriba su correo"
+              required
+            />
+          </p>
+          <p><label>Texto de Consulta</label></p>
+          <p>
+            <textarea
+              name="message"
+              v-model="message"
+              rows="9"
+              placeholder="Escriba aquí su consulta"
+              required
+            />
+          </p>
+          <input type="submit" value="Enviar" />
+        </form>
       </div>
     </div>
     <div class="filalogo">
@@ -58,32 +76,32 @@
   </div>
 </template>
 <script>
-import emailjs from 'emailjs-com';
+import emailjs from "emailjs-com";
 
 export default {
   name: "Pie de Página",
   props: ["fotos"],
   data() {
     return {
-      email: '',
-      message: ''
-      }
+      email: "",
+      message: "",
+    };
   },
   methods: {
-    sendEmail(e){
+    sendEmail(e) {
       try {
-      emailjs.sendForm('gmail','correo', e.target, 'QM9iKEOLLysNxT6ZI',
-      { email: this.email,
-       message: this.message
-      })
-      } catch(error){
-        console.log({error})
+        emailjs.sendForm("gmail", "correo", e.target, "QM9iKEOLLysNxT6ZI", {
+          email: this.email,
+          message: this.message,
+        });
+      } catch (error) {
+        console.log({ error });
       }
-      this.email= ''
-      this.message= ''
+      this.email = "";
+      this.message = "";
     },
-  }
-}
+  },
+};
 </script>
 <style>
 .footer {
@@ -125,8 +143,8 @@ label {
   border-bottom: 1px solid #d9d9d9;
   padding-bottom: 1em;
 }
-.borde > a:hover{
-  color: #fff
+.borde > a:hover {
+  color: #fff;
 }
 .linkform {
   color: #fff;
@@ -147,7 +165,7 @@ textarea {
   font-family: sans-serif;
 }
 
-input[type=submit]{
+input[type="submit"] {
   width: 100%;
   padding: 1em;
   border-radius: 0.2em;
@@ -159,7 +177,7 @@ input[type=submit]{
   outline: 0;
   cursor: pointer;
 }
-input[type=submit]:hover{
+input[type="submit"]:hover {
   background-color: #484ca2;
 }
 .filalogos {
@@ -184,7 +202,54 @@ input[type=submit]:hover{
 .logocorto {
   height: 30px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
+  .mapa{
+    width: 70%;
+  }
+  .mapa > img {
+    width: 80%;
+  }
+  input,
+  textarea {
+    width: 88%;
+  }
+  input[type="submit"] {
+    width: 88%;
+  }
+  form > p {
+    width: 88%;
+  }
+  .borde {
+    width: 88%;
+  }
+  .filalogo {
+    display: none;
+  }
+}
+@media screen and (max-width: 375px) {
+  .filafooter {
+    padding-left: 5em;
+    width: 70%;
+  }
+  .columna{
+    width: 70%;
+  }
+  .contenedorform{
+    width: 80%;
+  }
+  input[type="submit"] {
+    width: 68%;
+  }
+  .borde {
+    width: 68%;
+  }
+  /*.mapa img {
+    width: 70%;
+  }
   
+  form > p {
+    width: 68%;
+  }
+   */
 }
 </style>
