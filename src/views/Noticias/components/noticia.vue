@@ -72,4 +72,13 @@ export default {
 .contenidocompleto {
   color: #4a8089;
 }
+@media screen and (max-width: 425px) {
+  .tarjetanoticia {
+  display: inline-block;
+  width: 300px !important;
+}
+.tarjetanoticia > figure {
+  width: 290px;
+}
+}
 </style>

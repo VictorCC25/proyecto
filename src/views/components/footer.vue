@@ -243,13 +243,5 @@ input[type="submit"]:hover {
   .borde {
     width: 68%;
   }
-  /*.mapa img {
-    width: 70%;
-  }
-  
-  form > p {
-    width: 68%;
-  }
-   */
 }
 </style>
