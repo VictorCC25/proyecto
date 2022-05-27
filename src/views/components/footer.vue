@@ -122,9 +122,10 @@ export default {
 .columna {
   margin-left: 2em;
   display: inline-block;
+  width: 46%;
   min-width: 400px;
   max-width: 700px;
-  text-align: left;
+  /* text-align: left; */
 }
 .columna > h3 {
   margin-top: 0.5em;

@@ -17,7 +17,7 @@
     </div>
   </el-aside>
   <el-aside class="texto-inicial">
-    <h1>Excelencia adapada</h1>
+    <h1>Excelencia adaptada</h1>
     <h1>a cada estudiante</h1>
     <p>En busca permanente de nuevos caminos que permitan el exito educativo</p>
   </el-aside>
